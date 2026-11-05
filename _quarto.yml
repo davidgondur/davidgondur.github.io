@@ -1,21 +1,24 @@
 project:
   type: website
+  resources:
+    - assets/documents/
+  # Fija el botón de idioma y añade las etiquetas hreflang en el HTML generado.
+  post-render: scripts/i18n.ts
+
+lang: es
 
 website:
-  title: "davidgondur.github.io"
+  title: "David González Durán"
+  site-url: https://davidgondur.github.io
   navbar:
-    left:
-      - href: index.qmd
-        text: Home
-      - about.qmd
+    right:
+      # Botón de cambio de idioma. scripts/i18n.ts sustituye este enlace por
+      # el de la página equivalente en el otro idioma.
+      - text: "EN"
+        href: "#lang-toggle"
 
 format:
   html:
-    theme:
-      - cosmo
-      - brand
+    theme: cosmo
     css: styles.css
     toc: true
-
-
-

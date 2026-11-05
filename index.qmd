@@ -1,7 +1,17 @@
 ---
-title: "davidgondur.github.io"
+title: "<span style='font-weight: 400; font-size: 1.5cm; display: block;'>David</span> González Durán"
+pagetitle: "David González Durán"
+metadata-files:
+  - _about.yml
+about:
+  template: solana
+  image: "assets/images/profile_pic.jpg"
+
+format:
+  html:
+    toc: true
 ---
 
-This is a Quarto website.
-
-To learn more about Quarto websites visit <https://quarto.org/docs/websites>.
+```python
+print("Hola Mundo!")
+```

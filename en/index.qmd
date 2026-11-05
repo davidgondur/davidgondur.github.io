@@ -1,0 +1,18 @@
+---
+title: "<span style='font-weight: 400; font-size: 1.5cm; display: block;'>David</span> González Durán"
+pagetitle: "David González Durán"
+lang: en
+metadata-files:
+  - ../_about.yml
+about:
+  template: solana
+  image: "../assets/images/profile_pic.jpg"
+
+format:
+  html:
+    toc: true
+---
+
+```python
+print("Hello World!")
+```
