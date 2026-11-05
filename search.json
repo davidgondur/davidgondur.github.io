@@ -2,15 +2,15 @@
   {
     "objectID": "index.html",
     "href": "index.html",
-    "title": "davidgondur.github.io",
+    "title": "David González Durán",
     "section": "",
-    "text": "This is a Quarto website.\nTo learn more about Quarto websites visit https://quarto.org/docs/websites."
+    "text": "print(\"Hola Mundo!\")"
   },
   {
-    "objectID": "about.html",
-    "href": "about.html",
-    "title": "About",
+    "objectID": "en/index.html",
+    "href": "en/index.html",
+    "title": "David González Durán",
     "section": "",
-    "text": "About this site"
+    "text": "print(\"Hello World!\")"
   }
 ]
