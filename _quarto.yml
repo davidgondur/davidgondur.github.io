@@ -17,8 +17,38 @@ website:
       - text: "EN"
         href: "#lang-toggle"
 
+  # El footer es el mismo para todo el sitio, así que los textos van en los
+  # dos idiomas: [texto]{.es} solo se ve en español y [text]{.en} en inglés
+  # (ver styles.css). Sus colores están en theme.scss.
+  page-footer:
+    border: true
+    left: |
+      [Hecho con]{.es}[Powered by]{.en} [Quarto](https://quarto.org){target="_blank" rel="noopener noreferrer"}.
+    center: |
+      &copy; 2026 David González Durán.
+    right: |
+      [Licencia]{.es}[License]{.en}: [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0){target="_blank" rel="noopener noreferrer"}.
+
 format:
   html:
-    theme: cosmo
+    theme: [cosmo, theme.scss]
     css: styles.css
     toc: true
+
+    grid:
+      body-width: 1000px
+
+    respect-user-color-scheme: true
+
+    syntax-highlighting: github-light
+    code-copy: true
+    code-link: false
+    code-overflow: wrap
+
+
+execute:
+  freeze: auto
+
+date-format: long
+
+lightbox: true

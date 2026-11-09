@@ -1,0 +1,31 @@
+/*-- scss:defaults --*/
+
+// Colores del tema (los mismos que en el proyecto antiguo).
+// Lista de variables disponibles: https://quarto.org/docs/output-formats/html-themes.html
+
+// Página
+$body-bg: #f3f3f3;
+$body-color: #212529;
+
+// Barra de navegación
+$navbar-bg: #ebebeb;
+$navbar-fg: #2d2c36;
+$navbar-hl: #5075b0;
+
+// Footer
+$footer-bg: #ebebeb;
+$footer-fg: #4f545a;
+
+// Fondo del código escrito dentro de un párrafo (`así`). En las cajas de
+// código lo sustituye el fondo de la regla de más abajo.
+$code-block-bg: #c1cade;
+
+
+/*-- scss:rules --*/
+
+// Cajas de código: esquinas redondeadas, borde gris y fondo claro
+div.sourceCode, pre.sourceCode {
+  border-radius: 10px !important;
+  border-color: #afafaf;
+  background-color: #f8f9fa;
+}

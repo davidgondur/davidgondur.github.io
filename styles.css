@@ -1,1 +1,86 @@
-/* css styles */
+/* ============================================================
+   Textos bilingües en partes comunes del sitio (p. ej. el footer):
+   [Texto]{.es}[Text]{.en} → solo se ve el del idioma de la página
+   ============================================================ */
+html[lang="es"] .en,
+html[lang="en"] .es {
+  display: none;
+}
+
+/* ============================================================
+   Tarjetas desplegables
+   Se usan así en los .qmd:
+
+   ::: {.callout-note .tarjeta collapse="true" appearance="minimal"}
+   ### ![](logo.jpg){.icono} [Título]{.titulo} [Subtítulo]{.subtitulo}
+   Contenido que se muestra al desplegar.
+   :::
+
+   El icono puede ser una imagen ![](...){.icono} o un icono de
+   Bootstrap: []{.bi .bi-NOMBRE .icono}  (https://icons.getbootstrap.com)
+   ============================================================ */
+
+/* Caja blanca con borde suave, esquinas redondeadas y sombra */
+.callout.tarjeta {
+  background-color: white;
+  border: 1px solid #e2e8f0 !important; /* sustituye la barra azul del callout */
+  border-radius: 12px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.05);
+  padding: 0.5rem 1rem;
+  margin: 0 0 1.25rem 0;
+  transition: transform 0.2s, box-shadow 0.2s;
+}
+
+/* Efecto hover: la tarjeta sube un poco y la sombra crece */
+.callout.tarjeta:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
+}
+
+/* Cabecera: si hay icono, va a la izquierda y el texto a la derecha */
+.tarjeta .callout-title-container:has(.icono) {
+  display: grid;
+  grid-template-columns: auto 1fr;
+  column-gap: 1.25rem;
+  align-items: center;
+}
+
+.tarjeta .icono {
+  width: 70px;          /* tamaño si es una imagen */
+  font-size: 2.75rem;   /* tamaño si es un icono de Bootstrap */
+  text-align: center;
+}
+
+/* Si hay subtítulo, el icono ocupa la altura del título y el subtítulo */
+.tarjeta .callout-title-container:has(.subtitulo) .icono {
+  grid-row: span 2;
+}
+
+.tarjeta .titulo {
+  font-size: 1.2rem;
+  font-weight: 700;
+}
+
+.tarjeta .subtitulo {
+  display: block;
+  font-weight: normal;
+  color: #64748b;
+}
+
+/* Contenido desplegado, separado de la cabecera por una línea discontinua */
+.tarjeta .callout-body {
+  border-top: 2px dashed #e2e8f0;
+  padding-top: 1rem;
+  margin-top: 0.5rem;
+}
+
+/* Tarjetas sin contenido (solo título): ocultar el cuerpo vacío */
+.tarjeta .callout-body:not(:has(*)) {
+  display: none;
+}
+
+/* Imágenes dentro de las tarjetas: que no ocupen demasiado */
+.tarjeta .callout-body img {
+  max-height: 280px;
+  border-radius: 6px;
+}
