@@ -105,8 +105,9 @@ html[lang="en"] .es {
   display: inline-flex;
   align-items: center;
   gap: 8px;
-  background-color: #1f2937;
-  color: #fff   fff !important;
+  background-color: #fff;
+  color: #1f2937 !important;     /* texto e icono oscuros (si no, Bootstrap lo pone azul de enlace) */
+  border: 1px solid #1f2937;     /* borde oscuro */
   padding: 8px 16px;
   border-radius: 6px;
   font-size: 0.9rem;
@@ -117,7 +118,7 @@ html[lang="en"] .es {
 }
 
 .btn-github:hover {
-  background-color: #4b5563; /* Color más claro al pasar el ratón */
+  background-color: #f3f4f6; /* gris muy claro al pasar el ratón */
   transform: scale(1.02);
 }
 
