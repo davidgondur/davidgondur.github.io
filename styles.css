@@ -37,6 +37,12 @@ html[lang="en"] .es {
   box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
 }
 
+/* Quarto pone la cabecera de los callouts "minimal" al 75 % de opacidad,
+   lo que hace que el icono (y el texto) se vean algo transparentes */
+.callout.tarjeta.callout-style-simple > div.callout-header {
+  opacity: 1;
+}
+
 /* Cabecera: si hay icono, va a la izquierda y el texto a la derecha */
 .tarjeta .callout-title-container:has(.icono) {
   display: grid;
@@ -82,5 +88,39 @@ html[lang="en"] .es {
 /* Imágenes dentro de las tarjetas: que no ocupen demasiado */
 .tarjeta .callout-body img {
   max-height: 280px;
+  object-fit: contain; /* nunca deformar si choca con width */
   border-radius: 6px;
+}
+
+/* Para imágenes que deban verse grandes: ![](...){.grande width=80%} */
+.tarjeta .callout-body img.grande {
+  max-height: none;
+}
+
+
+
+
+/* Botón de GitHub Estilizado */
+.btn-github {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  background-color: #1f2937;
+  color: #fff   fff !important;
+  padding: 8px 16px;
+  border-radius: 6px;
+  font-size: 0.9rem;
+  font-weight: 500;
+  text-decoration: none !important;
+  transition: background-color 0.2s ease, transform 0.1s ease;
+  margin-top: 15px; /* Separa el botón de las viñetas */
+}
+
+.btn-github:hover {
+  background-color: #4b5563; /* Color más claro al pasar el ratón */
+  transform: scale(1.02);
+}
+
+.btn-github .bi {
+  font-size: 1.15rem; /* Tamaño del icono */
 }

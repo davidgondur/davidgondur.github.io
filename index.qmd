@@ -18,9 +18,9 @@ print("Hola Mundo!")
 
 ## []{.bi .bi-person-vcard} Bio
 
-¡Hola! Soy David, recién graduado por la Universidad de Granada en Ingeniería Informática y Administración y Dirección de Empresas, especializado en **Data Science** y **Computer Vision**. Tengo experiencia práctica en el ciclo de vida del dato gracias a mis prácticas como **Junior Data Engineer** en Cívica Software. Me interesa la **IA confiable** (_Trustworthy AI_), en concreto la cuantificación de la incertidumbre y la interpretabilidad, campos en los que sigo profundizando para garantizar que los sistemas inteligentes sean transparentes, robustos y éticos.
+¡Hola! Soy David, graduado por la Universidad de Granada en Ingeniería Informática y Administración y Dirección de Empresas, y actualmente estudiante del Máster en Inteligencia Artificial, Reconocimiento de Formas e Imagen Digital en la Universitat Politècnica de València. Me estoy especializando en **Data Science** y **Computer Vision**. Tengo experiencia práctica en el ciclo de vida del dato gracias a mis prácticas como **Junior Data Engineer** en Cívica Software. Me interesa la **IA confiable** (_Trustworthy AI_), en concreto la cuantificación de la incertidumbre y la interpretabilidad, campos en los que sigo profundizando para garantizar que los sistemas inteligentes sean transparentes, robustos y éticos.
 
-¡Actualmente estoy buscando trabajo! 😉
+¡Actualmente buscando prácticas de empresa con las que hacer mi proyecto de Fin de Máster! 😉
 
 ::: {.callout-note .tarjeta collapse="true" appearance="minimal"}
 ### []{.bi .bi-book .icono} [Mi trayectoria completa]{.titulo} [Haz clic para leerla]{.subtitulo}
@@ -31,7 +31,7 @@ Mi base técnica en el ciclo de vida del dato se consolidó durante mis práctic
 
 Más tarde, gracias a una de las asignaturas más exigentes pero agradecidas de la carrera, desarrollé un fuerte interés por la **Visión por Computador**. Este campo me permitió explorar la representación y el filtrado clásicos de imágenes, la extracción de características artesanales y, en última instancia, sumergirme en el fascinante mundo del _Deep Learning_, explorando el potencial de las CNNs y los _Transformers_ en tareas complejas como la detección de objetos y la segmentación.
 
-![Esquema simplificado de la arquitectura adaptada de ResNext50 para la estimación de edad (regresión) en mi Trabajo de Fin de Grado. Elaboración propia. El propósito principal no era maximizar la precisión puntual de las predicciones, sino desarrollar un modelo razonablemente ligero sobre el que cuantificar la incertidumbre asociada a dichas estimaciones.](assets/images/adapted_ResNext50.png)
+![Esquema simplificado de la arquitectura adaptada de ResNext50 para la estimación de edad (regresión) en mi Trabajo de Fin de Grado. Elaboración propia. El propósito principal no era maximizar la precisión puntual de las predicciones, sino desarrollar un modelo razonablemente ligero sobre el que cuantificar la incertidumbre asociada a dichas estimaciones.](assets/images/adapted_ResNext50.png){.grande width=80%}
 
 Sin embargo, también comprobé que la IA no es infalible: no solo comete errores objetivos, sino que reproduce imprecisiones y sesgos sistémicos derivados de los conjuntos de datos recopilados por humanos. Por eso me he acercado cada vez más al campo de la **IA Confiable (_Trustworthy AI_)**. Creo que, para que la inteligencia artificial sea realmente útil en el mundo real, debe ser transparente y robusta.
 
@@ -49,21 +49,13 @@ Más allá de lo académico, siempre he creído en la importancia de participar 
 ::: {.callout-note .tarjeta collapse="true" appearance="minimal"}
 ### ![](assets/images/logo_UGR.jpg){.icono} [Doble Grado en Ingeniería Informática y Administración y Dirección de Empresas]{.titulo} [Universidad de Granada · Curso 2019/2020 – 2025/2026 (6 años)]{.subtitulo}
 
-Nota media de 8,01 en Ingeniería Informática y 8,36 en Administración y Dirección de Empresas.
+Nota media de 8.01 en Ingeniería Informática y 8.   36 en Administración y Dirección de Empresas.
 :::
 
-## []{.bi .bi-briefcase} Experiencia laboral
-
-::: {.callout-note .tarjeta collapse="true" appearance="minimal"}
-### ![](assets/images/logo_civica_company.png){.icono} [Prácticas extracurriculares: Junior Data Engineer]{.titulo} [Cívica Software · Julio a octubre de 2024 (3 meses)]{.subtitulo}
-
-- Mantenimiento de bases de datos en Teradata y Snowflake.
-- Supervisión de flujos de datos mediante procesos ETL con Informatica PowerCenter.
-- Redacción y mantenimiento de la documentación técnica de los proyectos, garantizando la claridad y la trazabilidad de los procesos con Microsoft Word.
-- Elaboración de informes estadísticos para el seguimiento de los KPI con Power BI.
-
-[Web de Cívica Software](https://civica-soft.com/)
+::: {.callout-note .tarjeta appearance="minimal"}
+### ![](assets/images/logo_UPV.png){.icono} [Máster en Inteligencia Artificial, Reconocimiento de Formas e Imagen Digital]{.titulo} [Universitat Politècnica de València · Curso 2026/2027 (en curso)]{.subtitulo}
 :::
+
 
 ## []{.bi .bi-journal-code} Proyectos {#sec-proyectos}
 
@@ -78,8 +70,27 @@ En colaboración con [Panacea Cooperative Research](https://panacea-coop.com/), 
 - Análisis, síntesis y aplicación de métodos del estado del arte para problemas de estimación biológica.
 - Ecosistemas colaborativos: Overleaf, Google Workspace y Microsoft 365.
 
-[[]{.bi .bi-github} tfg-bioprofile-uncertainty](https://github.com/esdavide2910/tfg-bioprofile-uncertainty){.btn .btn-dark}
+[[]{.bi .bi-github} tfg-bioprofile-uncertainty](https://github.com/esdavide2910/tfg-bioprofile-uncertainty){.btn-github}
 :::
+
+
+
+
+## []{.bi .bi-briefcase} Experiencia laboral
+
+::: {.callout-note .tarjeta collapse="true" appearance="minimal"}
+### ![](assets/images/logo_civica_company.png){.icono} [Prácticas extracurriculares: Junior Data Engineer]{.titulo} [Cívica Software · Julio a octubre de 2024 (3 meses)]{.subtitulo}
+
+- Mantenimiento de bases de datos en Teradata y Snowflake.
+- Supervisión de flujos de datos mediante procesos ETL con Informatica PowerCenter.
+- Redacción y mantenimiento de la documentación técnica de los proyectos, garantizando la claridad y la trazabilidad de los procesos con Microsoft Word.
+- Elaboración de informes estadísticos para el seguimiento de los KPI con Power BI.
+
+[Web de Cívica Software](https://civica-soft.com/)
+:::
+
+
+
 
 ## []{.bi .bi-laptop} Habilidades IT
 
@@ -139,6 +150,7 @@ La claridad, el orden y la reproducibilidad de los documentos son pilares fundam
 - **R**: nivel básico para generar visualizaciones de datos. ¡Aprendiendo ahora mismo!
 :::
 
+<!--
 ## []{.bi .bi-people} Competencias transversales
 
 ::: {.callout-note .tarjeta collapse="true" appearance="minimal"}
@@ -158,7 +170,9 @@ Me defino como una persona curiosa, con una mentalidad de aprendizaje constante 
 
 Comprometido con la cultura de la seguridad de la información. Gestiono de forma proactiva mi seguridad digital mediante gestores de contraseñas, cifrado y protección de datos confidenciales para garantizar la integridad y la privacidad en cada proyecto.
 :::
+-->
 
+<!--
 ## []{.bi .bi-bookmark-heart} Intereses
 
 ::: {.callout-note .tarjeta collapse="true" appearance="minimal"}
@@ -172,6 +186,7 @@ Centrado en el análisis exploratorio de datos (EDA) y en el diseño de visualiz
 
 Interesado en la cuantificación de la incertidumbre y la IA explicable para crear sistemas fiables, sobre todo en entornos donde la fiabilidad y la cuantificación del riesgo son fundamentales.
 :::
+-->
 
 ## []{.bi .bi-translate} Idiomas
 
@@ -192,5 +207,5 @@ Certificación FCE de Cambridge. Número de verificación: D5753484.
 
 [Pablo Mesejo Santiago](https://www.ugr.es/~pmesejo/) es profesor asociado del Departamento de Informática e Inteligencia Artificial de la Universidad de Granada, y socio cofundador y director de Inteligencia Artificial de Panacea Cooperative Research.
 
-[[]{.bi .bi-file-earmark-pdf} Descargar carta de recomendación](assets/documents/recommendation-letter.pdf){.btn .btn-outline-primary target="_blank"}
+[[]{.bi .bi-file-earmark-pdf} Ver carta de recomendación](assets/documents/recommendation-letter.pdf){.btn .btn-outline-primary target="_blank"}
 :::

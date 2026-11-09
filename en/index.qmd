@@ -19,9 +19,9 @@ print("Hello World!")
 
 ## []{.bi .bi-person-vcard} Bio
 
-Hi! I'm David, a recent graduate in Computer Engineering and Business Administration from the University of Granada, specialising in **Data Science** and **Computer Vision**. I have hands-on experience across the data lifecycle from my internship as a **Junior Data Engineer** at Cívica Software. I'm interested in **Trustworthy AI**, particularly uncertainty quantification and interpretability, fields I keep studying to help make intelligent systems transparent, robust and ethical.
+Hi! I'm David, a graduate in Computer Engineering and Business Administration from the University of Granada, currently studying for a Master's Degree in Artificial Intelligence, Pattern Recognition and Digital Imaging at the Universitat Politècnica de València. I'm specialising in **Data Science** and **Computer Vision**. I have hands-on experience across the data lifecycle from my internship as a **Junior Data Engineer** at Cívica Software. I'm interested in **Trustworthy AI**, particularly uncertainty quantification and interpretability, fields I keep studying to help make intelligent systems transparent, robust and ethical.
 
-I'm currently looking for a job! 😉
+I'm currently looking for an internship in which to carry out my master's thesis! 😉
 
 ::: {.callout-note .tarjeta collapse="true" appearance="minimal"}
 ### []{.bi .bi-book .icono} [My full story]{.titulo} [Click to read it]{.subtitulo}
@@ -32,7 +32,7 @@ My technical foundation in the data lifecycle was strengthened during my extracu
 
 Later, thanks to one of the most demanding but rewarding courses of my degree, I developed a strong interest in **Computer Vision**. This field allowed me to explore classical image representation and filtering, hand-crafted feature extraction and, ultimately, to dive into the fascinating world of _Deep Learning_, exploring the potential of CNNs and _Transformers_ in complex tasks such as object detection and segmentation.
 
-![Simplified diagram of the adapted ResNext50 architecture for age estimation (regression) in my Bachelor's Thesis. Own work. The main goal was not to maximise the point accuracy of the predictions, but to build a reasonably lightweight model on which to quantify the uncertainty of those estimates.](../assets/images/adapted_ResNext50.png)
+![Simplified diagram of the adapted ResNext50 architecture for age estimation (regression) in my Bachelor's Thesis. Own work. The main goal was not to maximise the point accuracy of the predictions, but to build a reasonably lightweight model on which to quantify the uncertainty of those estimates.](../assets/images/adapted_ResNext50.png){.grande width=80%}
 
 However, I also realised that AI is not infallible: it not only makes objective mistakes, but also reproduces inaccuracies and systemic biases inherited from human-collected datasets. As a result, I have moved increasingly towards **Trustworthy AI**. I believe that for artificial intelligence to be truly useful in the real world, it must be transparent and robust.
 
@@ -51,6 +51,10 @@ Beyond academics, I have always believed in taking an active part in the univers
 ### ![](../assets/images/logo_UGR.jpg){.icono} [Double Degree in Computer Engineering and Business Administration]{.titulo} [University of Granada · 2019/2020 – 2025/2026 (6 years)]{.subtitulo}
 
 Average grade of 8.01/10 in Computer Engineering and 8.36/10 in Business Administration.
+:::
+
+::: {.callout-note .tarjeta appearance="minimal"}
+### ![](../assets/images/logo_UPV.png){.icono} [Master's Degree in Artificial Intelligence, Pattern Recognition and Digital Imaging]{.titulo} [Universitat Politècnica de València · 2026/2027 (in progress)]{.subtitulo}
 :::
 
 ## []{.bi .bi-briefcase} Work experience
@@ -79,7 +83,7 @@ In collaboration with [Panacea Cooperative Research](https://panacea-coop.com/),
 - Analysis, synthesis and application of state-of-the-art methods for biological estimation problems.
 - Collaborative tools: Overleaf, Google Workspace and Microsoft 365.
 
-[[]{.bi .bi-github} tfg-bioprofile-uncertainty](https://github.com/esdavide2910/tfg-bioprofile-uncertainty){.btn .btn-dark}
+[[]{.bi .bi-github} tfg-bioprofile-uncertainty](https://github.com/esdavide2910/tfg-bioprofile-uncertainty){.btn-github}
 :::
 
 ## []{.bi .bi-laptop} IT skills
@@ -140,6 +144,7 @@ Clarity, structure and reproducibility in documents are cornerstones of communic
 - **R**: basic level for data visualisation. Learning it right now!
 :::
 
+<!--
 ## []{.bi .bi-people} Soft skills
 
 ::: {.callout-note .tarjeta collapse="true" appearance="minimal"}
@@ -173,6 +178,7 @@ Focused on exploratory data analysis (EDA) and on designing visualisations that 
 
 Interested in uncertainty quantification and explainable AI to build reliable systems, especially in settings where reliability and risk quantification are essential.
 :::
+-->
 
 ## []{.bi .bi-translate} Languages
 
