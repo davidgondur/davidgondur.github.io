@@ -7,10 +7,108 @@
     "text": "print(\"Hola Mundo!\")"
   },
   {
+    "objectID": "index.html#bio",
+    "href": "index.html#bio",
+    "title": "David González Durán",
+    "section": " Bio",
+    "text": "Bio\n¡Hola! Soy David, graduado por la Universidad de Granada en Ingeniería Informática y Administración y Dirección de Empresas, y actualmente estudiante del Máster en Inteligencia Artificial, Reconocimiento de Formas e Imagen Digital en la Universitat Politècnica de València. Me estoy especializando en Data Science y Computer Vision. Tengo experiencia práctica en el ciclo de vida del dato gracias a mis prácticas como Junior Data Engineer en Cívica Software. Me interesa la IA confiable (Trustworthy AI), en concreto la cuantificación de la incertidumbre y la interpretabilidad, campos en los que sigo profundizando para garantizar que los sistemas inteligentes sean transparentes, robustos y éticos.\n¡Actualmente buscando prácticas de empresa con las que hacer mi proyecto de Fin de Máster! 😉\n\n\n\n\n\n\nNota Mi trayectoria completa Haz clic para leerla\n\n\n\n\n\nDurante mi carrera universitaria descubrí mi pasión por la IA, concretamente por el Machine Learning, que permitía obtener algoritmos que iban mucho más allá del código y extraer patrones complejos a partir de datos en bruto para transformarlos en conocimiento profundo. Esta pasión me llevó de forma natural hacia la Ciencia de Datos. Disfruto profundizando en conjuntos de datos para descubrir patrones ocultos y creando visualizaciones que ayuden a comprender la realidad que subyace a ellos.\nMi base técnica en el ciclo de vida del dato se consolidó durante mis prácticas extracurriculares en Cívica Software, donde trabajé 3 meses como Junior Data Engineer en un proyecto para una entidad financiera. Allí adquirí una experiencia fundamental en el ecosistema de bases de datos, lo que me permitió comprender el ciclo de vida del dato y los procesos ETL.\nMás tarde, gracias a una de las asignaturas más exigentes pero agradecidas de la carrera, desarrollé un fuerte interés por la Visión por Computador. Este campo me permitió explorar la representación y el filtrado clásicos de imágenes, la extracción de características artesanales y, en última instancia, sumergirme en el fascinante mundo del Deep Learning, explorando el potencial de las CNNs y los Transformers en tareas complejas como la detección de objetos y la segmentación.\n\n\n\nEsquema simplificado de la arquitectura adaptada de ResNext50 para la estimación de edad (regresión) en mi Trabajo de Fin de Grado. Elaboración propia. El propósito principal no era maximizar la precisión puntual de las predicciones, sino desarrollar un modelo razonablemente ligero sobre el que cuantificar la incertidumbre asociada a dichas estimaciones.\n\n\nSin embargo, también comprobé que la IA no es infalible: no solo comete errores objetivos, sino que reproduce imprecisiones y sesgos sistémicos derivados de los conjuntos de datos recopilados por humanos. Por eso me he acercado cada vez más al campo de la IA Confiable (Trustworthy AI). Creo que, para que la inteligencia artificial sea realmente útil en el mundo real, debe ser transparente y robusta.\nMi enfoque más reciente en este sentido es la Cuantificación de la Incertidumbre, el núcleo de mi Trabajo de Fin de Grado: Cuantificación de la incertidumbre en las predicciones de modelos de machine learning para problemas de estimación del perfil biológico (más detalles abajo, en Proyectos). Este trabajo integra Conformal Prediction en tareas de estimación biológica, como la estimación de la edad y el sexo a partir de radiografías maxilofaciales, proporcionando intervalos de predicción (en regresión) y conjuntos de etiquetas (en clasificación) con garantías estadísticas, capturando así la incertidumbre en cada caso.\n\n\n\nDiagrama de un modelo de regresión con predicción conformal que, además de devolver una predicción puntual con el valor esperado, obtiene un intervalo de predicción con un 95 % de confianza. Elaboración propia.\n\n\nActualmente estoy leyendo Interpretable Machine Learning, de Christoph Molnar, para tener una visión más completa de cómo abrir la «caja negra» de los algoritmos.\nMás allá de lo académico, siempre he creído en la importancia de participar activamente en la comunidad universitaria. Durante el grado tuve el honor de ser durante 1 año vicesecretario y durante 2 años secretario de la Delegación de Estudiantes de Ingenierías Informática y de Telecomunicaciones (DEIIT). En esta etapa me encargué de convocar las sesiones plenarias, redactar y publicar las actas y gestionar el censo de miembros, además de ayudar a organizar eventos en la escuela (mercadillos de BBAA, Día de la Escuela y Hackathon de desarrollo de videojuegos) o colaborar en otros (Granabot)."
+  },
+  {
+    "objectID": "index.html#formación-académica",
+    "href": "index.html#formación-académica",
+    "title": "David González Durán",
+    "section": " Formación académica",
+    "text": "Formación académica\n\n\n\n\n\n\nNota Doble Grado en Ingeniería Informática y Administración y Dirección de Empresas Universidad de Granada · Curso 2019/2020 – 2025/2026 (6 años)\n\n\n\n\n\nNota media de 8.01 en Ingeniería Informática y 8. 36 en Administración y Dirección de Empresas.\n\n\n\n\n\n\n\n\n\nNota Máster en Inteligencia Artificial, Reconocimiento de Formas e Imagen Digital Universitat Politècnica de València · Curso 2026/2027 (en curso)"
+  },
+  {
+    "objectID": "index.html#sec-proyectos",
+    "href": "index.html#sec-proyectos",
+    "title": "David González Durán",
+    "section": " Proyectos",
+    "text": "Proyectos\n\n\n\n\n\n\nNota Cuantificación de la incertidumbre de las predicciones de modelos de aprendizaje automático en problemas de estimación del perfil biológico Trabajo de Fin de Grado\n\n\n\n\n\n\nEn colaboración con Panacea Cooperative Research, dirigido por Pablo Mesejo Santiago y mentorizado por Javier Venema Rodríguez.\n\nAcceso y gestión de información académica (más de 100 referencias, entre libros, artículos y sitios web).\nAnálisis, síntesis y aplicación de métodos del estado del arte para problemas de estimación biológica.\nEcosistemas colaborativos: Overleaf, Google Workspace y Microsoft 365.\n\n tfg-bioprofile-uncertainty"
+  },
+  {
+    "objectID": "index.html#experiencia-laboral",
+    "href": "index.html#experiencia-laboral",
+    "title": "David González Durán",
+    "section": " Experiencia laboral",
+    "text": "Experiencia laboral\n\n\n\n\n\n\nNota Prácticas extracurriculares: Junior Data Engineer Cívica Software · Julio a octubre de 2024 (3 meses)\n\n\n\n\n\n\nMantenimiento de bases de datos en Teradata y Snowflake.\nSupervisión de flujos de datos mediante procesos ETL con Informatica PowerCenter.\nRedacción y mantenimiento de la documentación técnica de los proyectos, garantizando la claridad y la trazabilidad de los procesos con Microsoft Word.\nElaboración de informes estadísticos para el seguimiento de los KPI con Power BI.\n\nWeb de Cívica Software"
+  },
+  {
+    "objectID": "index.html#habilidades-it",
+    "href": "index.html#habilidades-it",
+    "title": "David González Durán",
+    "section": " Habilidades IT",
+    "text": "Habilidades IT\n\n\n\n\n\n\nNota Data Science Nivel general avanzado\n\n\n\n\n\n\nUso avanzado de Pandas y Polars para la manipulación y limpieza de datos de alto rendimiento.\nMatplotlib, Seaborn y Plotly para comunicar conocimientos complejos mediante gráficos interactivos y con calidad de publicación.\nUso experto de Scikit-Learn para el aprendizaje automático clásico, y de PyTorch y TensorFlow/Keras para el aprendizaje profundo.\nEspecializado en la cuantificación de la incertidumbre con Crepes, MAPIE y TorchCP.\n\n\n\n\n\n\n\n\n\n\nNota Visión artificial Nivel general avanzado\n\n\n\n\n\nExperiencia en proyectos académicos avanzados con herramientas como:\n\nOpenCV para la manipulación avanzada de imágenes, el filtrado digital y la visión clásica.\nPillow para la gestión eficiente de formatos de imagen y el preprocesamiento de datos.\nUso avanzado de PyTorch y TensorFlow/Keras para la implementación de redes profundas.\nFamiliaridad con ONNX para la interoperabilidad de modelos.\n\n\n\n\n\n\n\n\n\n\nNota Ingeniería y análisis de datos Nivel general intermedio\n\n\n\n\n\nNivel intermedio en SQL (CTEs, funciones de ventana, procedimientos…). Experiencia práctica en entornos empresariales centrada en la supervisión y el mantenimiento de estructuras de datos existentes:\n\nData Warehousing: experiencia intermedia con Snowflake y Teradata, supervisando conjuntos de datos analíticos y realizando modificaciones menores en los esquemas.\nETL e integración: experiencia básica con Informatica PowerCenter.\nConocimientos intermedios de Power BI para la visualización de datos.\n\n\n\n\n\n\n\n\n\n\nNota Comunicación técnica Nivel general avanzado\n\n\n\n\n\nLa claridad, el orden y la reproducibilidad de los documentos son pilares fundamentales de la comunicación.\n\nUso avanzado de LaTeX y Typst para la composición de documentos e informes científicos de alta calidad.\nCreación de sitios web con Quarto (como esta página web 😄).\nEcosistemas colaborativos: Overleaf, Google Workspace y Microsoft 365.\n\n\n\n\n\n\n\n\n\n\nNota Ingeniería del software Nivel general básico\n\n\n\n\n\n\nControl de versiones: uso frecuente de Git y GitHub para el desarrollo colaborativo y el control de versiones del código.\nContenedores: experiencia básica con Docker para aislar entornos de uso personal.\n\n\n\n\n\n\n\n\n\n\nNota Lenguajes de programación y HDL\n\n\n\n\n\n\nPython: dominio avanzado en el desarrollo de aplicaciones de análisis de datos, visualización y despliegue de modelos de Machine Learning. Experiencia sólida en el ecosistema científico (Pandas, NumPy, Matplotlib/Seaborn) y en el desarrollo de flujos de trabajo eficientes para el procesamiento de información.\nC++ y Java: nivel intermedio, usados durante la carrera en proyectos pequeños y medianos (programación orientada a objetos).\nVerilog (Intel Altera): nivel básico.\nR: nivel básico para generar visualizaciones de datos. ¡Aprendiendo ahora mismo!"
+  },
+  {
+    "objectID": "index.html#idiomas",
+    "href": "index.html#idiomas",
+    "title": "David González Durán",
+    "section": " Idiomas",
+    "text": "Idiomas\n\n\n\n\n\n\nNota Español Nativo\n\n\n\n\n\n\n\n\n\n\n\nNota Inglés Nivel intermedio alto (B2)\n\n\n\n\n\nCertificación FCE de Cambridge. Número de verificación: D5753484."
+  },
+  {
+    "objectID": "index.html#recomendaciones",
+    "href": "index.html#recomendaciones",
+    "title": "David González Durán",
+    "section": " Recomendaciones",
+    "text": "Recomendaciones\n\n\n\n\n\n\nNota Pablo Mesejo Santiago Universidad de Granada · Panacea Cooperative Research\n\n\n\n\n\nPablo Mesejo Santiago es profesor asociado del Departamento de Informática e Inteligencia Artificial de la Universidad de Granada, y socio cofundador y director de Inteligencia Artificial de Panacea Cooperative Research.\n Ver carta de recomendación"
+  },
+  {
     "objectID": "en/index.html",
     "href": "en/index.html",
     "title": "David González Durán",
     "section": "",
     "text": "print(\"Hello World!\")"
+  },
+  {
+    "objectID": "en/index.html#bio",
+    "href": "en/index.html#bio",
+    "title": "David González Durán",
+    "section": " Bio",
+    "text": "Bio\nHi! I’m David, a graduate in Computer Engineering and Business Administration from the University of Granada, currently studying for a Master’s Degree in Artificial Intelligence, Pattern Recognition and Digital Imaging at the Universitat Politècnica de València. I’m specialising in Data Science and Computer Vision. I have hands-on experience across the data lifecycle from my internship as a Junior Data Engineer at Cívica Software. I’m interested in Trustworthy AI, particularly uncertainty quantification and interpretability, fields I keep studying to help make intelligent systems transparent, robust and ethical.\nI’m currently looking for an internship in which to carry out my master’s thesis! 😉\n\n\n\n\n\n\nNote My full story Click to read it\n\n\n\n\n\nDuring my university studies I discovered my passion for AI, specifically Machine Learning, which made it possible to build algorithms that went far beyond code and to extract complex patterns from raw data, turning them into deep knowledge. This passion led me naturally to Data Science. I enjoy digging into datasets to uncover hidden patterns and creating visualisations that help explain the reality behind them.\nMy technical foundation in the data lifecycle was strengthened during my extracurricular internship at Cívica Software, where I worked for 3 months as a Junior Data Engineer on a project for a financial institution. There I gained essential experience in the database ecosystem, which helped me understand the data lifecycle and ETL processes.\nLater, thanks to one of the most demanding but rewarding courses of my degree, I developed a strong interest in Computer Vision. This field allowed me to explore classical image representation and filtering, hand-crafted feature extraction and, ultimately, to dive into the fascinating world of Deep Learning, exploring the potential of CNNs and Transformers in complex tasks such as object detection and segmentation.\n\n\n\nSimplified diagram of the adapted ResNext50 architecture for age estimation (regression) in my Bachelor’s Thesis. Own work. The main goal was not to maximise the point accuracy of the predictions, but to build a reasonably lightweight model on which to quantify the uncertainty of those estimates.\n\n\nHowever, I also realised that AI is not infallible: it not only makes objective mistakes, but also reproduces inaccuracies and systemic biases inherited from human-collected datasets. As a result, I have moved increasingly towards Trustworthy AI. I believe that for artificial intelligence to be truly useful in the real world, it must be transparent and robust.\nMy most recent focus in this area is Uncertainty Quantification, the core of my Bachelor’s Thesis: Uncertainty quantification in the predictions of machine learning models for biological profile estimation problems (more details below in Projects). This work integrates Conformal Prediction into biological estimation tasks, such as estimating age and sex from maxillofacial X-rays, providing prediction intervals (in regression) and label sets (in classification) with statistical guarantees, thus capturing the uncertainty in each case.\n\n\n\nDiagram of a regression model with conformal prediction that, besides returning a point prediction with the expected value, produces a prediction interval with 95% confidence. Own work (labels in Spanish).\n\n\nI’m currently reading Interpretable Machine Learning by Christoph Molnar, to get a fuller picture of how to open the “black box” of algorithms.\nBeyond academics, I have always believed in taking an active part in the university community. During my degree I had the honour of serving for 1 year as vice-secretary and for 2 years as secretary of the Student Delegation of Computer and Telecommunication Engineering (DEIIT). In this role I was responsible for calling plenary sessions, drafting and publishing the minutes and managing the member register, as well as helping to organise school events (Fine Arts markets, School Day and a video game development Hackathon) or collaborating in others (Granabot)."
+  },
+  {
+    "objectID": "en/index.html#education",
+    "href": "en/index.html#education",
+    "title": "David González Durán",
+    "section": " Education",
+    "text": "Education\n\n\n\n\n\n\nNote Double Degree in Computer Engineering and Business Administration University of Granada · 2019/2020 – 2025/2026 (6 years)\n\n\n\n\n\nAverage grade of 8.01/10 in Computer Engineering and 8.36/10 in Business Administration.\n\n\n\n\n\n\n\n\n\nNote Master’s Degree in Artificial Intelligence, Pattern Recognition and Digital Imaging Universitat Politècnica de València · 2026/2027 (in progress)"
+  },
+  {
+    "objectID": "en/index.html#work-experience",
+    "href": "en/index.html#work-experience",
+    "title": "David González Durán",
+    "section": " Work experience",
+    "text": "Work experience\n\n\n\n\n\n\nNote Extracurricular internship: Junior Data Engineer Cívica Software · July to October 2024 (3 months)\n\n\n\n\n\n\nMaintenance of Teradata and Snowflake databases.\nMonitoring of data flows through ETL processes with Informatica PowerCenter.\nWriting and maintaining the projects’ technical documentation, ensuring clarity and traceability of processes, with Microsoft Word.\nPreparing statistical reports to track KPIs with Power BI.\n\nCívica Software website"
+  },
+  {
+    "objectID": "en/index.html#sec-projects",
+    "href": "en/index.html#sec-projects",
+    "title": "David González Durán",
+    "section": " Projects",
+    "text": "Projects\n\n\n\n\n\n\nNote Uncertainty quantification in the predictions of machine learning models for biological profile estimation problems Bachelor’s Thesis\n\n\n\n\n\n\nIn collaboration with Panacea Cooperative Research, supervised by Pablo Mesejo Santiago and mentored by Javier Venema Rodríguez.\n\nFinding and managing academic literature (over 100 references, including books, papers and websites).\nAnalysis, synthesis and application of state-of-the-art methods for biological estimation problems.\nCollaborative tools: Overleaf, Google Workspace and Microsoft 365.\n\n tfg-bioprofile-uncertainty"
+  },
+  {
+    "objectID": "en/index.html#it-skills",
+    "href": "en/index.html#it-skills",
+    "title": "David González Durán",
+    "section": " IT skills",
+    "text": "IT skills\n\n\n\n\n\n\nNote Data Science Overall level: advanced\n\n\n\n\n\n\nAdvanced use of Pandas and Polars for high-performance data manipulation and cleaning.\nMatplotlib, Seaborn and Plotly to communicate complex insights through interactive, publication-quality charts.\nExpert use of Scikit-Learn for classical machine learning, and PyTorch and TensorFlow/Keras for deep learning.\nSpecialised in uncertainty quantification with Crepes, MAPIE and TorchCP.\n\n\n\n\n\n\n\n\n\n\nNote Computer Vision Overall level: advanced\n\n\n\n\n\nExperience in advanced academic projects with tools such as:\n\nOpenCV for advanced image manipulation, digital filtering and classical vision.\nPillow for efficient image format handling and data preprocessing.\nAdvanced use of PyTorch and TensorFlow/Keras to implement deep networks.\nFamiliarity with ONNX for model interoperability.\n\n\n\n\n\n\n\n\n\n\nNote Data Engineering and Analytics Overall level: intermediate\n\n\n\n\n\nIntermediate SQL (CTEs, window functions, procedures…). Hands-on experience in corporate environments, focused on monitoring and maintaining existing data structures:\n\nData Warehousing: intermediate experience with Snowflake and Teradata, monitoring analytical datasets and making minor schema changes.\nETL & Integration: basic experience with Informatica PowerCenter.\nIntermediate knowledge of Power BI for data visualisation.\n\n\n\n\n\n\n\n\n\n\nNote Technical communication Overall level: advanced\n\n\n\n\n\nClarity, structure and reproducibility in documents are cornerstones of communication.\n\nAdvanced use of LaTeX and Typst to typeset high-quality scientific documents and reports.\nBuilding websites with Quarto (like this one 😄).\nCollaborative tools: Overleaf, Google Workspace and Microsoft 365.\n\n\n\n\n\n\n\n\n\n\nNote Software Engineering Overall level: basic\n\n\n\n\n\n\nVersion control: regular use of Git and GitHub for collaborative development and code versioning.\nContainers: basic experience with Docker to isolate personal environments.\n\n\n\n\n\n\n\n\n\n\nNote Programming languages and HDL\n\n\n\n\n\n\nPython: advanced proficiency in building data analysis and visualisation applications and deploying Machine Learning models. Solid experience with the scientific ecosystem (Pandas, NumPy, Matplotlib/Seaborn) and with building efficient data processing workflows.\nC++ and Java: intermediate level, used during my degree for small and medium-sized projects (object-oriented programming).\nVerilog (Intel Altera): basic level.\nR: basic level for data visualisation. Learning it right now!"
+  },
+  {
+    "objectID": "en/index.html#languages",
+    "href": "en/index.html#languages",
+    "title": "David González Durán",
+    "section": " Languages",
+    "text": "Languages\n\n\n\n\n\n\nNote Spanish Native\n\n\n\n\n\n\n\n\n\n\n\nNote English Upper intermediate (B2)\n\n\n\n\n\nCambridge FCE certificate. Verification number: D5753484."
+  },
+  {
+    "objectID": "en/index.html#references",
+    "href": "en/index.html#references",
+    "title": "David González Durán",
+    "section": " References",
+    "text": "References\n\n\n\n\n\n\nNote Pablo Mesejo Santiago University of Granada · Panacea Cooperative Research\n\n\n\n\n\nPablo Mesejo Santiago is an Associate Professor in the Department of Computer Science and Artificial Intelligence at the University of Granada, and co-founder and Director of Artificial Intelligence at Panacea Cooperative Research.\n Download recommendation letter"
   }
 ]

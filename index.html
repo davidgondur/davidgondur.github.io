@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="es" xml:lang="es"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.11.9">
+<meta name="generator" content="quarto-1.10.18">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
@@ -73,14 +73,16 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <meta name="quarto:offset" content="./">
 <script src="site_libs/quarto-html/quarto.js" type="module"></script>
 <script src="site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
-<script src="site_libs/quarto-html/scrollable-regions/scrollable-regions.js" type="module"></script>
 <script src="site_libs/quarto-html/popper.min.js"></script>
 <script src="site_libs/quarto-html/tippy.umd.min.js"></script>
 <link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting-63b5708e65d6cd79cd7618c58d0c21e7.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-bb62276ab45c84d9efd712f51ff97b5a.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap-48eea8e06ff06eb442a2daacfce5ac08.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<link href="site_libs/bootstrap/bootstrap-ad0585cc52285d5ca831dbc6de2a3a3a.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<script src="site_libs/quarto-contrib/glightbox/glightbox.min.js"></script>
+<link href="site_libs/quarto-contrib/glightbox/glightbox.min.css" rel="stylesheet">
+<link href="site_libs/quarto-contrib/glightbox/lightbox.css" rel="stylesheet">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -116,18 +118,19 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <link rel="alternate" hreflang="x-default" href="https://davidgondur.github.io/">
 </head>
 
-<body class="nav-fixed fullcontent quarto-light"><a id="quarto-skip-link" class="visually-hidden-focusable" href="#quarto-document-content">Saltar al contenido principal</a>
+<body class="nav-fixed quarto-light">
 
 <div id="quarto-search-results"></div>
   <header id="quarto-header" class="headroom fixed-top">
-    <nav class="navbar navbar-expand-lg " data-bs-theme="dark" aria-label="Sitio web">
+    <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
       <div class="navbar-container container-fluid">
       <div class="navbar-brand-container mx-auto">
     <a class="navbar-brand" href="./index.html">
     <span class="navbar-title">David González Durán</span>
     </a>
   </div>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Navegación de palanca" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+            <div id="quarto-search" class="" title="Buscar"></div>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" role="menu" aria-expanded="false" aria-label="Navegación de palanca" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
   <span class="navbar-toggler-icon"></span>
 </button>
           <div class="collapse navbar-collapse" id="navbarCollapse">
@@ -140,7 +143,6 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
           </div> <!-- /navcollapse -->
             <div class="quarto-navbar-tools">
 </div>
-            <div id="quarto-search" class="" title="Buscar"></div>
       </div> <!-- /container-fluid -->
     </nav>
 </header>
@@ -148,7 +150,20 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
-    
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">En esta página</h2>
+  <ul>
+  <li><a href="#bio" id="toc-bio" class="nav-link active" data-scroll-target="#bio"><span class="bi bi-person-vcard"></span> Bio</a></li>
+  <li><a href="#formación-académica" id="toc-formación-académica" class="nav-link" data-scroll-target="#formación-académica"><span class="bi bi-mortarboard"></span> Formación académica</a></li>
+  <li><a href="#sec-proyectos" id="toc-sec-proyectos" class="nav-link" data-scroll-target="#sec-proyectos"><span class="bi bi-journal-code"></span> Proyectos</a></li>
+  <li><a href="#experiencia-laboral" id="toc-experiencia-laboral" class="nav-link" data-scroll-target="#experiencia-laboral"><span class="bi bi-briefcase"></span> Experiencia laboral</a></li>
+  <li><a href="#habilidades-it" id="toc-habilidades-it" class="nav-link" data-scroll-target="#habilidades-it"><span class="bi bi-laptop"></span> Habilidades IT</a></li>
+  <li><a href="#idiomas" id="toc-idiomas" class="nav-link" data-scroll-target="#idiomas"><span class="bi bi-translate"></span> Idiomas</a></li>
+  <li><a href="#recomendaciones" id="toc-recomendaciones" class="nav-link" data-scroll-target="#recomendaciones"><span class="bi bi-person-check"></span> Recomendaciones</a></li>
+  </ul>
+</nav>
+    </div>
 <!-- main -->
 <div class="quarto-about-solana column-body">
   <div class="about-entity">
@@ -185,10 +200,337 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
      <span class="about-link-text">CV (Español)</span>
   </a>
 </div>
-      <div class="about-contents"><main class="content" id="quarto-document-content" tabindex="-1">
+      <div class="about-contents"><main class="content" id="quarto-document-content">
+
 <div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb1"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(<span class="st">"Hola Mundo!"</span>)</span></code></pre></div><button title="Copiar al portapapeles" class="code-copy-button"><i class="bi"></i></button></div>
+<section id="bio" class="level2">
+<h2 data-anchor-id="bio"><span class="bi bi-person-vcard"></span> Bio</h2>
+<p>¡Hola! Soy David, graduado por la Universidad de Granada en Ingeniería Informática y Administración y Dirección de Empresas, y actualmente estudiante del Máster en Inteligencia Artificial, Reconocimiento de Formas e Imagen Digital en la Universitat Politècnica de València. Me estoy especializando en <strong>Data Science</strong> y <strong>Computer Vision</strong>. Tengo experiencia práctica en el ciclo de vida del dato gracias a mis prácticas como <strong>Junior Data Engineer</strong> en Cívica Software. Me interesa la <strong>IA confiable</strong> (<em>Trustworthy AI</em>), en concreto la cuantificación de la incertidumbre y la interpretabilidad, campos en los que sigo profundizando para garantizar que los sistemas inteligentes sean transparentes, robustos y éticos.</p>
+<p>¡Actualmente buscando prácticas de empresa con las que hacer mi proyecto de Fin de Máster! 😉</p>
+<div class="tarjeta callout callout-style-simple callout-note no-icon callout-titled">
+<div class="callout-header d-flex align-content-center collapsed" data-bs-toggle="collapse" data-bs-target=".callout-1-contents" aria-controls="callout-1" aria-expanded="false" aria-label="Toggle callout">
+<div class="callout-icon-container">
+<i class="callout-icon no-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+<span class="screen-reader-only">Nota</span><span class="bi bi-book icono"></span> <span class="titulo">Mi trayectoria completa</span> <span class="subtitulo">Haz clic para leerla</span>
+</div>
+<div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
+</div>
+<div id="callout-1" class="callout-1-contents callout-collapse collapse">
+<div class="callout-body-container callout-body">
+<p>Durante mi carrera universitaria descubrí mi pasión por la IA, concretamente por el <em>Machine Learning</em>, que permitía obtener algoritmos que iban mucho más allá del código y extraer patrones complejos a partir de datos en bruto para transformarlos en conocimiento profundo. Esta pasión me llevó de forma natural hacia la <strong>Ciencia de Datos</strong>. Disfruto profundizando en conjuntos de datos para descubrir patrones ocultos y creando visualizaciones que ayuden a comprender la realidad que subyace a ellos.</p>
+<p>Mi base técnica en el ciclo de vida del dato se consolidó durante mis prácticas extracurriculares en <a href="https://civica-soft.com/">Cívica Software</a>, donde trabajé 3 meses como <strong>Junior Data Engineer</strong> en un proyecto para una entidad financiera. Allí adquirí una experiencia fundamental en el ecosistema de bases de datos, lo que me permitió comprender el ciclo de vida del dato y los procesos ETL.</p>
+<p>Más tarde, gracias a una de las asignaturas más exigentes pero agradecidas de la carrera, desarrollé un fuerte interés por la <strong>Visión por Computador</strong>. Este campo me permitió explorar la representación y el filtrado clásicos de imágenes, la extracción de características artesanales y, en última instancia, sumergirme en el fascinante mundo del <em>Deep Learning</em>, explorando el potencial de las CNNs y los <em>Transformers</em> en tareas complejas como la detección de objetos y la segmentación.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><a href="assets/images/adapted_ResNext50.png" class="lightbox" data-gallery="quarto-lightbox-gallery-1" title="Esquema simplificado de la arquitectura adaptada de ResNext50 para la estimación de edad (regresión) en mi Trabajo de Fin de Grado. Elaboración propia. El propósito principal no era maximizar la precisión puntual de las predicciones, sino desarrollar un modelo razonablemente ligero sobre el que cuantificar la incertidumbre asociada a dichas estimaciones."><img src="assets/images/adapted_ResNext50.png" class="grande img-fluid figure-img" style="width:80.0%" alt="Esquema simplificado de la arquitectura adaptada de ResNext50 para la estimación de edad (regresión) en mi Trabajo de Fin de Grado. Elaboración propia. El propósito principal no era maximizar la precisión puntual de las predicciones, sino desarrollar un modelo razonablemente ligero sobre el que cuantificar la incertidumbre asociada a dichas estimaciones."></a></p>
+<figcaption>Esquema simplificado de la arquitectura adaptada de ResNext50 para la estimación de edad (regresión) en mi Trabajo de Fin de Grado. Elaboración propia. El propósito principal no era maximizar la precisión puntual de las predicciones, sino desarrollar un modelo razonablemente ligero sobre el que cuantificar la incertidumbre asociada a dichas estimaciones.</figcaption>
+</figure>
+</div>
+<p>Sin embargo, también comprobé que la IA no es infalible: no solo comete errores objetivos, sino que reproduce imprecisiones y sesgos sistémicos derivados de los conjuntos de datos recopilados por humanos. Por eso me he acercado cada vez más al campo de la <strong>IA Confiable (<em>Trustworthy AI</em>)</strong>. Creo que, para que la inteligencia artificial sea realmente útil en el mundo real, debe ser transparente y robusta.</p>
+<p>Mi enfoque más reciente en este sentido es la <strong>Cuantificación de la Incertidumbre</strong>, el núcleo de mi Trabajo de Fin de Grado: <em>Cuantificación de la incertidumbre en las predicciones de modelos de machine learning para problemas de estimación del perfil biológico</em> (más detalles abajo, en <a href="#sec-proyectos">Proyectos</a>). Este trabajo integra <strong>Conformal Prediction</strong> en tareas de estimación biológica, como la estimación de la edad y el sexo a partir de radiografías maxilofaciales, proporcionando intervalos de predicción (en regresión) y conjuntos de etiquetas (en clasificación) con garantías estadísticas, capturando así la incertidumbre en cada caso.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><a href="assets/images/example_intervalic_estimation-es.jpg" class="lightbox" data-gallery="quarto-lightbox-gallery-2" title="Diagrama de un modelo de regresión con predicción conformal que, además de devolver una predicción puntual con el valor esperado, obtiene un intervalo de predicción con un 95 % de confianza. Elaboración propia."><img src="assets/images/example_intervalic_estimation-es.jpg" class="img-fluid figure-img" alt="Diagrama de un modelo de regresión con predicción conformal que, además de devolver una predicción puntual con el valor esperado, obtiene un intervalo de predicción con un 95 % de confianza. Elaboración propia."></a></p>
+<figcaption>Diagrama de un modelo de regresión con predicción conformal que, además de devolver una predicción puntual con el valor esperado, obtiene un intervalo de predicción con un 95 % de confianza. Elaboración propia.</figcaption>
+</figure>
+</div>
+<p>Actualmente estoy leyendo <em>Interpretable Machine Learning</em>, de Christoph Molnar, para tener una visión más completa de cómo abrir la «caja negra» de los algoritmos.</p>
+<p>Más allá de lo académico, siempre he creído en la importancia de participar activamente en la comunidad universitaria. Durante el grado tuve el honor de ser durante 1 año <strong>vicesecretario</strong> y durante 2 años <strong>secretario de la Delegación de Estudiantes de Ingenierías Informática y de Telecomunicaciones</strong> (DEIIT). En esta etapa me encargué de convocar las sesiones plenarias, redactar y publicar las actas y gestionar el censo de miembros, además de ayudar a organizar eventos en la escuela (mercadillos de BBAA, Día de la Escuela y Hackathon de desarrollo de videojuegos) o colaborar en otros (Granabot).</p>
+</div>
+</div>
+</div>
+</section>
+<section id="formación-académica" class="level2">
+<h2 data-anchor-id="formación-académica"><span class="bi bi-mortarboard"></span> Formación académica</h2>
+<div class="tarjeta callout callout-style-simple callout-note no-icon callout-titled">
+<div class="callout-header d-flex align-content-center collapsed" data-bs-toggle="collapse" data-bs-target=".callout-2-contents" aria-controls="callout-2" aria-expanded="false" aria-label="Toggle callout">
+<div class="callout-icon-container">
+<i class="callout-icon no-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+<span class="screen-reader-only">Nota</span><img src="assets/images/logo_UGR.jpg" class="icono img-fluid"> <span class="titulo">Doble Grado en Ingeniería Informática y Administración y Dirección de Empresas</span> <span class="subtitulo">Universidad de Granada · Curso 2019/2020 – 2025/2026 (6 años)</span>
+</div>
+<div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
+</div>
+<div id="callout-2" class="callout-2-contents callout-collapse collapse">
+<div class="callout-body-container callout-body">
+<p>Nota media de 8.01 en Ingeniería Informática y 8. 36 en Administración y Dirección de Empresas.</p>
+</div>
+</div>
+</div>
+<div class="tarjeta callout callout-style-simple callout-note no-icon callout-empty-content callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon no-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+<span class="screen-reader-only">Nota</span><img src="assets/images/logo_UPV.png" class="icono img-fluid"> <span class="titulo">Máster en Inteligencia Artificial, Reconocimiento de Formas e Imagen Digital</span> <span class="subtitulo">Universitat Politècnica de València · Curso 2026/2027 (en curso)</span>
+</div>
+</div>
+<div class="callout-body-container callout-body">
+</div>
+</div>
+</section>
+<section id="sec-proyectos" class="level2">
+<h2 data-anchor-id="sec-proyectos"><span class="bi bi-journal-code"></span> Proyectos</h2>
+<div class="tarjeta callout callout-style-simple callout-note no-icon callout-titled">
+<div class="callout-header d-flex align-content-center collapsed" data-bs-toggle="collapse" data-bs-target=".callout-4-contents" aria-controls="callout-4" aria-expanded="false" aria-label="Toggle callout">
+<div class="callout-icon-container">
+<i class="callout-icon no-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+<span class="screen-reader-only">Nota</span><span class="bi bi-mortarboard-fill icono"></span> <span class="titulo">Cuantificación de la incertidumbre de las predicciones de modelos de aprendizaje automático en problemas de estimación del perfil biológico</span> <span class="subtitulo">Trabajo de Fin de Grado</span>
+</div>
+<div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
+</div>
+<div id="callout-4" class="callout-4-contents callout-collapse collapse">
+<div class="callout-body-container callout-body">
+<p><a href="assets/images/example_intervalic_estimation-es.jpg" class="lightbox" data-gallery="quarto-lightbox-gallery-3"><img src="assets/images/example_intervalic_estimation-es.jpg" class="img-fluid"></a></p>
+<p>En colaboración con <a href="https://panacea-coop.com/">Panacea Cooperative Research</a>, dirigido por <a href="https://www.ugr.es/~pmesejo/">Pablo Mesejo Santiago</a> y mentorizado por <a href="https://www.linkedin.com/in/javier-venema/">Javier Venema Rodríguez</a>.</p>
+<ul>
+<li>Acceso y gestión de información académica (más de 100 referencias, entre libros, artículos y sitios web).</li>
+<li>Análisis, síntesis y aplicación de métodos del estado del arte para problemas de estimación biológica.</li>
+<li>Ecosistemas colaborativos: Overleaf, Google Workspace y Microsoft 365.</li>
+</ul>
+<p><a href="https://github.com/esdavide2910/tfg-bioprofile-uncertainty" class="btn-github"><span class="bi bi-github"></span> tfg-bioprofile-uncertainty</a></p>
+</div>
+</div>
+</div>
+</section>
+<section id="experiencia-laboral" class="level2">
+<h2 data-anchor-id="experiencia-laboral"><span class="bi bi-briefcase"></span> Experiencia laboral</h2>
+<div class="tarjeta callout callout-style-simple callout-note no-icon callout-titled">
+<div class="callout-header d-flex align-content-center collapsed" data-bs-toggle="collapse" data-bs-target=".callout-5-contents" aria-controls="callout-5" aria-expanded="false" aria-label="Toggle callout">
+<div class="callout-icon-container">
+<i class="callout-icon no-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+<span class="screen-reader-only">Nota</span><img src="assets/images/logo_civica_company.png" class="icono img-fluid"> <span class="titulo">Prácticas extracurriculares: Junior Data Engineer</span> <span class="subtitulo">Cívica Software · Julio a octubre de 2024 (3 meses)</span>
+</div>
+<div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
+</div>
+<div id="callout-5" class="callout-5-contents callout-collapse collapse">
+<div class="callout-body-container callout-body">
+<ul>
+<li>Mantenimiento de bases de datos en Teradata y Snowflake.</li>
+<li>Supervisión de flujos de datos mediante procesos ETL con Informatica PowerCenter.</li>
+<li>Redacción y mantenimiento de la documentación técnica de los proyectos, garantizando la claridad y la trazabilidad de los procesos con Microsoft Word.</li>
+<li>Elaboración de informes estadísticos para el seguimiento de los KPI con Power BI.</li>
+</ul>
+<p><a href="https://civica-soft.com/">Web de Cívica Software</a></p>
+</div>
+</div>
+</div>
+</section>
+<section id="habilidades-it" class="level2">
+<h2 data-anchor-id="habilidades-it"><span class="bi bi-laptop"></span> Habilidades IT</h2>
+<div class="tarjeta callout callout-style-simple callout-note no-icon callout-titled">
+<div class="callout-header d-flex align-content-center collapsed" data-bs-toggle="collapse" data-bs-target=".callout-6-contents" aria-controls="callout-6" aria-expanded="false" aria-label="Toggle callout">
+<div class="callout-icon-container">
+<i class="callout-icon no-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+<span class="screen-reader-only">Nota</span><span class="bi bi-graph-up icono"></span> <span class="titulo">Data Science</span> <span class="subtitulo">Nivel general avanzado</span>
+</div>
+<div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
+</div>
+<div id="callout-6" class="callout-6-contents callout-collapse collapse">
+<div class="callout-body-container callout-body">
+<ul>
+<li>Uso avanzado de <strong>Pandas</strong> y <strong>Polars</strong> para la manipulación y limpieza de datos de alto rendimiento.</li>
+<li><strong>Matplotlib</strong>, <strong>Seaborn</strong> y <strong>Plotly</strong> para comunicar conocimientos complejos mediante gráficos interactivos y con calidad de publicación.</li>
+<li>Uso experto de <strong>Scikit-Learn</strong> para el aprendizaje automático clásico, y de <strong>PyTorch</strong> y <strong>TensorFlow/Keras</strong> para el aprendizaje profundo.</li>
+<li>Especializado en la cuantificación de la incertidumbre con <strong>Crepes</strong>, <strong>MAPIE</strong> y <strong>TorchCP</strong>.</li>
+</ul>
+</div>
+</div>
+</div>
+<div class="tarjeta callout callout-style-simple callout-note no-icon callout-titled">
+<div class="callout-header d-flex align-content-center collapsed" data-bs-toggle="collapse" data-bs-target=".callout-7-contents" aria-controls="callout-7" aria-expanded="false" aria-label="Toggle callout">
+<div class="callout-icon-container">
+<i class="callout-icon no-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+<span class="screen-reader-only">Nota</span><span class="bi bi-eye icono"></span> <span class="titulo">Visión artificial</span> <span class="subtitulo">Nivel general avanzado</span>
+</div>
+<div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
+</div>
+<div id="callout-7" class="callout-7-contents callout-collapse collapse">
+<div class="callout-body-container callout-body">
+<p>Experiencia en proyectos académicos avanzados con herramientas como:</p>
+<ul>
+<li><strong>OpenCV</strong> para la manipulación avanzada de imágenes, el filtrado digital y la visión clásica.</li>
+<li><strong>Pillow</strong> para la gestión eficiente de formatos de imagen y el preprocesamiento de datos.</li>
+<li>Uso avanzado de <strong>PyTorch</strong> y <strong>TensorFlow/Keras</strong> para la implementación de redes profundas.</li>
+<li>Familiaridad con <strong>ONNX</strong> para la interoperabilidad de modelos.</li>
+</ul>
+</div>
+</div>
+</div>
+<div class="tarjeta callout callout-style-simple callout-note no-icon callout-titled">
+<div class="callout-header d-flex align-content-center collapsed" data-bs-toggle="collapse" data-bs-target=".callout-8-contents" aria-controls="callout-8" aria-expanded="false" aria-label="Toggle callout">
+<div class="callout-icon-container">
+<i class="callout-icon no-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+<span class="screen-reader-only">Nota</span><span class="bi bi-database icono"></span> <span class="titulo">Ingeniería y análisis de datos</span> <span class="subtitulo">Nivel general intermedio</span>
+</div>
+<div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
+</div>
+<div id="callout-8" class="callout-8-contents callout-collapse collapse">
+<div class="callout-body-container callout-body">
+<p>Nivel intermedio en <strong>SQL</strong> (CTEs, funciones de ventana, procedimientos…). Experiencia práctica en entornos empresariales centrada en la supervisión y el mantenimiento de estructuras de datos existentes:</p>
+<ul>
+<li><strong>Data Warehousing</strong>: experiencia intermedia con <strong>Snowflake</strong> y <strong>Teradata</strong>, supervisando conjuntos de datos analíticos y realizando modificaciones menores en los esquemas.</li>
+<li><strong>ETL e integración</strong>: experiencia básica con <strong>Informatica PowerCenter</strong>.</li>
+<li>Conocimientos intermedios de <strong>Power BI</strong> para la visualización de datos.</li>
+</ul>
+</div>
+</div>
+</div>
+<div class="tarjeta callout callout-style-simple callout-note no-icon callout-titled">
+<div class="callout-header d-flex align-content-center collapsed" data-bs-toggle="collapse" data-bs-target=".callout-9-contents" aria-controls="callout-9" aria-expanded="false" aria-label="Toggle callout">
+<div class="callout-icon-container">
+<i class="callout-icon no-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+<span class="screen-reader-only">Nota</span><span class="bi bi-file-earmark-text icono"></span> <span class="titulo">Comunicación técnica</span> <span class="subtitulo">Nivel general avanzado</span>
+</div>
+<div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
+</div>
+<div id="callout-9" class="callout-9-contents callout-collapse collapse">
+<div class="callout-body-container callout-body">
+<p>La claridad, el orden y la reproducibilidad de los documentos son pilares fundamentales de la comunicación.</p>
+<ul>
+<li>Uso avanzado de <strong>LaTeX</strong> y <strong>Typst</strong> para la composición de documentos e informes científicos de alta calidad.</li>
+<li>Creación de sitios web con <strong>Quarto</strong> (como esta página web 😄).</li>
+<li><strong>Ecosistemas colaborativos</strong>: Overleaf, Google Workspace y Microsoft 365.</li>
+</ul>
+</div>
+</div>
+</div>
+<div class="tarjeta callout callout-style-simple callout-note no-icon callout-titled">
+<div class="callout-header d-flex align-content-center collapsed" data-bs-toggle="collapse" data-bs-target=".callout-10-contents" aria-controls="callout-10" aria-expanded="false" aria-label="Toggle callout">
+<div class="callout-icon-container">
+<i class="callout-icon no-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+<span class="screen-reader-only">Nota</span><span class="bi bi-git icono"></span> <span class="titulo">Ingeniería del software</span> <span class="subtitulo">Nivel general básico</span>
+</div>
+<div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
+</div>
+<div id="callout-10" class="callout-10-contents callout-collapse collapse">
+<div class="callout-body-container callout-body">
+<ul>
+<li><strong>Control de versiones</strong>: uso frecuente de <strong>Git</strong> y <strong>GitHub</strong> para el desarrollo colaborativo y el control de versiones del código.</li>
+<li><strong>Contenedores</strong>: experiencia básica con <strong>Docker</strong> para aislar entornos de uso personal.</li>
+</ul>
+</div>
+</div>
+</div>
+<div class="tarjeta callout callout-style-simple callout-note no-icon callout-titled">
+<div class="callout-header d-flex align-content-center collapsed" data-bs-toggle="collapse" data-bs-target=".callout-11-contents" aria-controls="callout-11" aria-expanded="false" aria-label="Toggle callout">
+<div class="callout-icon-container">
+<i class="callout-icon no-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+<span class="screen-reader-only">Nota</span><span class="bi bi-code-slash icono"></span> <span class="titulo">Lenguajes de programación y HDL</span>
+</div>
+<div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
+</div>
+<div id="callout-11" class="callout-11-contents callout-collapse collapse">
+<div class="callout-body-container callout-body">
+<ul>
+<li><strong>Python</strong>: dominio avanzado en el desarrollo de aplicaciones de análisis de datos, visualización y despliegue de modelos de Machine Learning. Experiencia sólida en el ecosistema científico (Pandas, NumPy, Matplotlib/Seaborn) y en el desarrollo de flujos de trabajo eficientes para el procesamiento de información.</li>
+<li><strong>C++</strong> y <strong>Java</strong>: nivel intermedio, usados durante la carrera en proyectos pequeños y medianos (programación orientada a objetos).</li>
+<li><strong>Verilog (Intel Altera)</strong>: nivel básico.</li>
+<li><strong>R</strong>: nivel básico para generar visualizaciones de datos. ¡Aprendiendo ahora mismo!</li>
+</ul>
+</div>
+</div>
+</div>
+<!--
+## []{.bi .bi-people} Competencias transversales
+::: {.callout-note .tarjeta collapse="true" appearance="minimal"}
+### []{.bi .bi-kanban .icono} [Rol organizativo]{.titulo}
+Durante la carrera, tanto en los trabajos en equipo como en mi labor como secretario de la DEIIT, he tenido una fuerte inclinación por ordenar, planificar y homogeneizar el trabajo, así como por comunicarme de manera clara y asertiva con los demás miembros para asegurar que se cumplieran los objetivos en los plazos establecidos.
+:::
+::: {.callout-note .tarjeta collapse="true" appearance="minimal"}
+### []{.bi .bi-arrow-up-circle .icono} [Mejora continua]{.titulo}
+Me defino como una persona curiosa, con una mentalidad de aprendizaje constante y una gran capacidad para adoptar nuevas tecnologías, metodologías y herramientas que mejoren la calidad de mi trabajo diario.
+:::
+::: {.callout-note .tarjeta collapse="true" appearance="minimal"}
+### []{.bi .bi-shield-lock .icono} [Buenas prácticas de seguridad digital]{.titulo}
+Comprometido con la cultura de la seguridad de la información. Gestiono de forma proactiva mi seguridad digital mediante gestores de contraseñas, cifrado y protección de datos confidenciales para garantizar la integridad y la privacidad en cada proyecto.
+:::
+-->
+<!--
+## []{.bi .bi-bookmark-heart} Intereses
+::: {.callout-note .tarjeta collapse="true" appearance="minimal"}
+### []{.bi .bi-bar-chart .icono} [DataViz]{.titulo}
+Centrado en el análisis exploratorio de datos (EDA) y en el diseño de visualizaciones que nos ayuden a comprender los datos.
+:::
+::: {.callout-note .tarjeta collapse="true" appearance="minimal"}
+### []{.bi .bi-shield-check .icono} [Trustworthy AI]{.titulo}
+Interesado en la cuantificación de la incertidumbre y la IA explicable para crear sistemas fiables, sobre todo en entornos donde la fiabilidad y la cuantificación del riesgo son fundamentales.
+:::
+-->
+</section>
+<section id="idiomas" class="level2">
+<h2 data-anchor-id="idiomas"><span class="bi bi-translate"></span> Idiomas</h2>
+<div class="tarjeta callout callout-style-simple callout-note no-icon callout-empty-content callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon no-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+<span class="screen-reader-only">Nota</span><span class="bi bi-chat-text icono"></span> <span class="titulo">Español</span> <span class="subtitulo">Nativo</span>
+</div>
+</div>
+<div class="callout-body-container callout-body">
+</div>
+</div>
+<div class="tarjeta callout callout-style-simple callout-note no-icon callout-titled">
+<div class="callout-header d-flex align-content-center collapsed" data-bs-toggle="collapse" data-bs-target=".callout-13-contents" aria-controls="callout-13" aria-expanded="false" aria-label="Toggle callout">
+<div class="callout-icon-container">
+<i class="callout-icon no-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+<span class="screen-reader-only">Nota</span><span class="bi bi-chat-text icono"></span> <span class="titulo">Inglés</span> <span class="subtitulo">Nivel intermedio alto (B2)</span>
+</div>
+<div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
+</div>
+<div id="callout-13" class="callout-13-contents callout-collapse collapse">
+<div class="callout-body-container callout-body">
+<p>Certificación FCE de Cambridge. Número de verificación: D5753484.</p>
+</div>
+</div>
+</div>
+</section>
+<section id="recomendaciones" class="level2">
+<h2 data-anchor-id="recomendaciones"><span class="bi bi-person-check"></span> Recomendaciones</h2>
+<div class="tarjeta callout callout-style-simple callout-note no-icon callout-titled">
+<div class="callout-header d-flex align-content-center collapsed" data-bs-toggle="collapse" data-bs-target=".callout-14-contents" aria-controls="callout-14" aria-expanded="false" aria-label="Toggle callout">
+<div class="callout-icon-container">
+<i class="callout-icon no-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+<span class="screen-reader-only">Nota</span><span class="bi bi-person-badge icono"></span> <span class="titulo">Pablo Mesejo Santiago</span> <span class="subtitulo">Universidad de Granada · Panacea Cooperative Research</span>
+</div>
+<div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
+</div>
+<div id="callout-14" class="callout-14-contents callout-collapse collapse">
+<div class="callout-body-container callout-body">
+<p><a href="https://www.ugr.es/~pmesejo/">Pablo Mesejo Santiago</a> es profesor asociado del Departamento de Informática e Inteligencia Artificial de la Universidad de Granada, y socio cofundador y director de Inteligencia Artificial de Panacea Cooperative Research.</p>
+<p><a href="assets/documents/recommendation-letter.pdf" class="btn btn-outline-primary" target="_blank"><span class="bi bi-file-earmark-pdf"></span> Ver carta de recomendación</a></p>
+</div>
+</div>
+</div>
 
 
+</section>
 </main></div>
     </div>
     <img src="assets/images/profile_pic.jpg" class="about-image
@@ -267,8 +609,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
           return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
       }
       // Inspect non-navigation links and adorn them if external
-      window.quartoDecorateExternalLinks = function (root) {
-     var links = (root || window.document).querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool):not(.about-link)');
+     var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool):not(.about-link)');
       for (var i=0; i<links.length; i++) {
         const link = links[i];
         if (!isInternal(link.href)) {
@@ -277,69 +618,8 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
           if (link.dataset.originalHref !== undefined) {
             link.href = link.dataset.originalHref;
           }
-          if (!link.classList.contains('no-external-icon')) {
-          }
         }
       }
-      };
-      window.quartoDecorateExternalLinks(window.document);
-    // Esc closes the popup (WCAG 1.4.13) and focus leaving both trigger and
-    // popup closes it (WCAG 2.4.11); tippy handles neither for interactive popups.
-    const hideOnEscAndFocusOut = {
-      name: 'hideOnEscAndFocusOut',
-      defaultValue: true,
-      fn(instance) {
-        const dismiss = () => {
-          // A show scheduled by the trigger delay would otherwise reopen it
-          instance.clearDelayTimeouts();
-          instance.hide();
-        };
-        const onKeyDown = (event) => {
-          if (event.key !== 'Escape') {
-            return;
-          }
-          // Keep Esc from also reaching page handlers (e.g. reveal.js overview),
-          // except an open reveal.js slide menu, which Esc should close too.
-          // The menu handles keys only when its keyboard option is on.
-          const menuHandlesEsc = window.Reveal?.getPlugin?.('menu')?.isOpen() &&
-            window.Reveal.getConfig().menu?.keyboard !== false;
-          if (!menuHandlesEsc) {
-            event.stopPropagation();
-          }
-          if (instance.popper.contains(window.document.activeElement)) {
-            // Disabled while refocusing so the focus trigger does not reopen it
-            instance.disable();
-            instance.reference.focus();
-            instance.enable();
-          }
-          dismiss();
-        };
-        const onFocusOut = (event) => {
-          const target = event.relatedTarget;
-          if (target && !instance.reference.contains(target) &&
-              !instance.popper.contains(target)) {
-            dismiss();
-          }
-        };
-        // On the trigger too: a click trigger (code-annotations: select) has no
-        // blur handling. Attached for the instance's lifetime so leaving the
-        // trigger also cancels a show still pending on the trigger delay.
-        instance.reference.addEventListener('focusout', onFocusOut);
-        return {
-          onShow() {
-            window.document.addEventListener('keydown', onKeyDown, true);
-            instance.popper.addEventListener('focusout', onFocusOut);
-          },
-          onHide() {
-            window.document.removeEventListener('keydown', onKeyDown, true);
-            instance.popper.removeEventListener('focusout', onFocusOut);
-          },
-          onDestroy() {
-            instance.reference.removeEventListener('focusout', onFocusOut);
-          },
-        };
-      },
-    };
     function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
       const config = {
         allowHTML: true,
@@ -353,7 +633,6 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
         interactiveBorder: 10,
         theme: 'quarto',
         placement: 'bottom-start',
-        plugins: [hideOnEscAndFocusOut],
       };
       if (contentFn) {
         config.content = contentFn;
@@ -516,54 +795,44 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
           const lineIds = lines.map((line) => {
             return targetCell + "-" + line;
           })
-          // Each band is positioned against its own containing block, which is
-          // not the offsetParent of the lines, so place it from client rects.
-          const placeBand = (band, firstEl, lastEl, codeBlock) => {
-            const container = band.offsetParent;
-            if (container === null) {
-              return;
-            }
-            const containerRect = container.getBoundingClientRect();
-            // Reveal.js scales slides with a transform, so convert client
-            // pixels back to the CSS pixels of the container.
-            const scale = containerRect.height / container.offsetHeight || 1;
-            const firstRect = firstEl.getBoundingClientRect();
-            const lastRect = lastEl.getBoundingClientRect();
-            const top = (firstRect.top - containerRect.top) / scale - container.clientTop + container.scrollTop;
-            const height = (lastRect.bottom - firstRect.top) / scale;
-            band.style.top = top - 2 + "px";
-            band.style.height = height + 4 + "px";
-            if (codeBlock) {
-              // Without the copy button wrapper, the containing block is wider
-              // than the code block, so span the code block explicitly.
-              const blockRect = codeBlock.getBoundingClientRect();
-              band.style.left = (blockRect.left - containerRect.left) / scale - container.clientLeft + container.scrollLeft + "px";
-              band.style.width = blockRect.width / scale + "px";
-            }
-          };
+          let top = null;
+          let height = null;
+          let parent = null;
           if (lineIds.length > 0) {
-            const el = window.document.getElementById(lineIds[0]);
-            const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
-            const parent = el.parentElement.parentElement;
-            // cook up a div (if necessary) and position it
-            let div = window.document.getElementById("code-annotation-line-highlight");
-            if (div === null) {
-              div = window.document.createElement("div");
-              div.setAttribute("id", "code-annotation-line-highlight");
-              div.style.position = 'absolute';
-              parent.appendChild(div);
+              //compute the position of the single el (top and bottom and make a div)
+              const el = window.document.getElementById(lineIds[0]);
+              top = el.offsetTop;
+              height = el.offsetHeight;
+              parent = el.parentElement.parentElement;
+            if (lineIds.length > 1) {
+              const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
+              const bottom = lastEl.offsetTop + lastEl.offsetHeight;
+              height = bottom - top;
             }
-            placeBand(div, el, lastEl, parent.closest("div.sourceCode") || parent);
-            let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
-            if (gutterDiv === null) {
-              gutterDiv = window.document.createElement("div");
-              gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
-              gutterDiv.style.position = 'absolute';
-              const codeCell = window.document.getElementById(targetCell);
-              const gutter = codeCell.querySelector('.code-annotation-gutter');
-              gutter.appendChild(gutterDiv);
+            if (top !== null && height !== null && parent !== null) {
+              // cook up a div (if necessary) and position it 
+              let div = window.document.getElementById("code-annotation-line-highlight");
+              if (div === null) {
+                div = window.document.createElement("div");
+                div.setAttribute("id", "code-annotation-line-highlight");
+                div.style.position = 'absolute';
+                parent.appendChild(div);
+              }
+              div.style.top = top - 2 + "px";
+              div.style.height = height + 4 + "px";
+              div.style.left = 0;
+              let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
+              if (gutterDiv === null) {
+                gutterDiv = window.document.createElement("div");
+                gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
+                gutterDiv.style.position = 'absolute';
+                const codeCell = window.document.getElementById(targetCell);
+                const gutter = codeCell.querySelector('.code-annotation-gutter');
+                gutter.appendChild(gutterDiv);
+              }
+              gutterDiv.style.top = top - 2 + "px";
+              gutterDiv.style.height = height + 4 + "px";
             }
-            placeBand(gutterDiv, el, lastEl);
             selectedAnnoteEl = annoteEl;
           }
         };
@@ -662,10 +931,52 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
     }
   });
   </script>
-  <script type="application/javascript">
-  window.quartoScrollableRegionsLabels = {"code":"Código desplazable","output":"Salida desplazable"};
-  </script>
 </div> <!-- /content -->
+<footer class="footer">
+  <div class="nav-footer">
+    <div class="nav-footer-left">
+<p><span class="es">Hecho con</span><span class="en">Powered by</span> <a href="https://quarto.org" target="_blank" rel="noopener noreferrer">Quarto</a>.</p>
+</div>   
+    <div class="nav-footer-center">
+<p>© 2026 David González Durán.</p>
+</div>
+    <div class="nav-footer-right">
+<p><span class="es">Licencia</span><span class="en">License</span>: <a href="https://creativecommons.org/licenses/by-nc-sa/4.0" target="_blank" rel="noopener noreferrer">CC BY-NC-SA 4.0</a>.</p>
+</div>
+  </div>
+</footer>
+<script>var lightboxQuarto = GLightbox({"closeEffect":"zoom","descPosition":"bottom","loop":false,"openEffect":"zoom","selector":".lightbox"});
+(function() {
+  let previousOnload = window.onload;
+  window.onload = () => {
+    if (previousOnload) {
+      previousOnload();
+    }
+    lightboxQuarto.on('slide_before_load', (data) => {
+      const { slideIndex, slideNode, slideConfig, player, trigger } = data;
+      const href = trigger.getAttribute('href');
+      if (href !== null) {
+        const imgEl = window.document.querySelector(`a[href="${href}"] img`);
+        if (imgEl !== null) {
+          const srcAttr = imgEl.getAttribute("src");
+          if (srcAttr && srcAttr.startsWith("data:")) {
+            slideConfig.href = srcAttr;
+          }
+        }
+      } 
+    });
+  
+    lightboxQuarto.on('slide_after_load', (data) => {
+      const { slideIndex, slideNode, slideConfig, player, trigger } = data;
+      if (window.Quarto?.typesetMath) {
+        window.Quarto.typesetMath(slideNode);
+      }
+    });
+  
+  };
+  
+})();
+          </script>
 
 
 
