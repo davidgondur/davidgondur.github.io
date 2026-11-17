@@ -10,6 +10,7 @@ lang: es
 website:
   title: "David González Durán"
   site-url: https://davidgondur.github.io
+  favicon: assets/images/simplified_signature_white_squared.svg
   navbar:
     right:
       # Botón de cambio de idioma. scripts/i18n.ts sustituye este enlace por

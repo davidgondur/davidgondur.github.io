@@ -49,7 +49,7 @@ Más allá de lo académico, siempre he creído en la importancia de participar 
 ::: {.callout-note .tarjeta collapse="true" appearance="minimal"}
 ### ![](assets/images/logo_UGR.jpg){.icono} [Doble Grado en Ingeniería Informática y Administración y Dirección de Empresas]{.titulo} [Universidad de Granada · Curso 2019/2020 – 2025/2026 (6 años)]{.subtitulo}
 
-Nota media de 8.01 en Ingeniería Informática y 8.   36 en Administración y Dirección de Empresas.
+Nota media de 8.01 en Ingeniería Informática y 8.36 en Administración y Dirección de Empresas.
 :::
 
 ::: {.callout-note .tarjeta appearance="minimal"}
@@ -70,7 +70,7 @@ En colaboración con [Panacea Cooperative Research](https://panacea-coop.com/), 
 - Análisis, síntesis y aplicación de métodos del estado del arte para problemas de estimación biológica.
 - Ecosistemas colaborativos: Overleaf, Google Workspace y Microsoft 365.
 
-[[]{.bi .bi-github} tfg-bioprofile-uncertainty](https://github.com/esdavide2910/tfg-bioprofile-uncertainty){.btn-github}
+[[]{.bi .bi-github} tfg-bioprofile-uncertainty](https://github.com/davidgondur/tfg-bioprofile-uncertainty){.btn-github}
 :::
 
 

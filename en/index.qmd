@@ -83,7 +83,7 @@ In collaboration with [Panacea Cooperative Research](https://panacea-coop.com/),
 - Analysis, synthesis and application of state-of-the-art methods for biological estimation problems.
 - Collaborative tools: Overleaf, Google Workspace and Microsoft 365.
 
-[[]{.bi .bi-github} tfg-bioprofile-uncertainty](https://github.com/esdavide2910/tfg-bioprofile-uncertainty){.btn-github}
+[[]{.bi .bi-github} tfg-bioprofile-uncertainty](https://github.com/davidgondur/tfg-bioprofile-uncertainty){.btn-github}
 :::
 
 ## []{.bi .bi-laptop} IT skills
