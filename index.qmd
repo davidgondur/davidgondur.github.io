@@ -25,21 +25,21 @@ print("Hola Mundo!")
 ::: {.callout-note .tarjeta collapse="true" appearance="minimal"}
 ### []{.bi .bi-book .icono} [Mi trayectoria completa]{.titulo} [Haz clic para leerla]{.subtitulo}
 
-Durante mi carrera universitaria descubrí mi pasión por la IA, concretamente por el _Machine Learning_, que permitía obtener algoritmos que iban mucho más allá del código y extraer patrones complejos a partir de datos en bruto para transformarlos en conocimiento profundo. Esta pasión me llevó de forma natural hacia la **Ciencia de Datos**. Disfruto profundizando en conjuntos de datos para descubrir patrones ocultos y creando visualizaciones que ayuden a comprender la realidad que subyace a ellos.
+Durante la carrera descubrí mi pasión por la IA, y en concreto por el _Machine Learning_: algoritmos que van mucho más allá del código y que son capaces de extraer patrones complejos a partir de datos en bruto para transformarlos en conocimiento. Esta pasión me llevó de forma natural hacia la **Ciencia de Datos**. Disfruto profundizando en conjuntos de datos para descubrir patrones ocultos y creando visualizaciones que ayuden a comprender la realidad que subyace a ellos.
 
-Mi base técnica en el ciclo de vida del dato se consolidó durante mis prácticas extracurriculares en [Cívica Software](https://civica-soft.com/), donde trabajé 3 meses como **Junior Data Engineer** en un proyecto para una entidad financiera. Allí adquirí una experiencia fundamental en el ecosistema de bases de datos, lo que me permitió comprender el ciclo de vida del dato y los procesos ETL.
-
-Más tarde, gracias a una de las asignaturas más exigentes pero agradecidas de la carrera, desarrollé un fuerte interés por la **Visión por Computador**. Este campo me permitió explorar la representación y el filtrado clásicos de imágenes, la extracción de características artesanales y, en última instancia, sumergirme en el fascinante mundo del _Deep Learning_, explorando el potencial de las CNNs y los _Transformers_ en tareas complejas como la detección de objetos y la segmentación.
+Ese mismo curso, gracias a una de las asignaturas más exigentes pero agradecidas de la carrera, desarrollé un fuerte interés por la **Visión por Computador**. Empecé por la representación y el filtrado clásicos de imágenes y la extracción de características artesanales, y acabé sumergiéndome en el fascinante mundo del _Deep Learning_, explorando el potencial de las CNNs y los _Transformers_ en tareas complejas como la detección de objetos y la segmentación.
 
 ![Esquema simplificado de la arquitectura adaptada de ResNext50 para la estimación de edad (regresión) en mi Trabajo de Fin de Grado. Elaboración propia. El propósito principal no era maximizar la precisión puntual de las predicciones, sino desarrollar un modelo razonablemente ligero sobre el que cuantificar la incertidumbre asociada a dichas estimaciones.](assets/images/adapted_ResNext50.png){.grande width=80%}
 
-Sin embargo, también comprobé que la IA no es infalible: no solo comete errores objetivos, sino que reproduce imprecisiones y sesgos sistémicos derivados de los conjuntos de datos recopilados por humanos. Por eso me he acercado cada vez más al campo de la **IA Confiable (_Trustworthy AI_)**. Creo que, para que la inteligencia artificial sea realmente útil en el mundo real, debe ser transparente y robusta.
+En julio de 2024 di el salto al mundo empresarial con mis prácticas extracurriculares en [Cívica Software](https://civica-soft.com/), donde trabajé 3 meses como **Junior Data Engineer** en un proyecto para una entidad financiera. Allí adquirí una experiencia fundamental en el ecosistema de bases de datos, lo que me permitió comprender el ciclo de vida del dato y los procesos ETL.
 
-Mi enfoque más reciente en este sentido es la **Cuantificación de la Incertidumbre**, el núcleo de mi Trabajo de Fin de Grado: _Cuantificación de la incertidumbre en las predicciones de modelos de machine learning para problemas de estimación del perfil biológico_ (más detalles abajo, en [Proyectos](#sec-proyectos)). Este trabajo integra **Conformal Prediction** en tareas de estimación biológica, como la estimación de la edad y el sexo a partir de radiografías maxilofaciales, proporcionando intervalos de predicción (en regresión) y conjuntos de etiquetas (en clasificación) con garantías estadísticas, capturando así la incertidumbre en cada caso.
+Sin embargo, por el camino también comprobé que la IA no es infalible: no solo comete errores objetivos, sino que reproduce imprecisiones y sesgos sistémicos derivados de los conjuntos de datos recopilados por humanos. Por eso me he acercado cada vez más al campo de la **IA Confiable (_Trustworthy AI_)**. Creo que, para que la inteligencia artificial sea realmente útil en el mundo real, debe ser transparente y robusta.
+
+Mi enfoque en este sentido es la **Cuantificación de la Incertidumbre**, el núcleo de mi Trabajo de Fin de Grado: _Cuantificación de la incertidumbre en las predicciones de modelos de machine learning para problemas de estimación del perfil biológico_ (más detalles abajo, en [Proyectos](#sec-proyectos)). Este trabajo integra **Conformal Prediction** en tareas de estimación biológica, como la estimación de la edad y el sexo a partir de radiografías maxilofaciales, proporcionando intervalos de predicción (en regresión) y conjuntos de etiquetas (en clasificación) con garantías estadísticas, capturando así la incertidumbre en cada caso. Lo defendí en septiembre de 2025 con un 9.5, pero no lo he dado por cerrado: desde entonces he seguido mejorándolo por mi cuenta.
 
 ![Diagrama de un modelo de regresión con predicción conformal que, además de devolver una predicción puntual con el valor esperado, obtiene un intervalo de predicción con un 95 % de confianza. Elaboración propia.](assets/images/example_intervalic_estimation-es.jpg)
 
-Actualmente estoy leyendo _Interpretable Machine Learning_, de Christoph Molnar, para tener una visión más completa de cómo abrir la «caja negra» de los algoritmos.
+Hoy continúo este camino en el **Máster en Inteligencia Artificial, Reconocimiento de Formas e Imagen Digital** de la Universitat Politècnica de València, donde estoy reforzando mis conocimientos y profundizando en el funcionamiento de los **mecanismos de atención** y los **_Transformers_**, así como en el uso de la **IA agéntica** en proyectos. Además, estoy dando mis primeros pasos con **Unity** y la **Realidad Aumentada**. En paralelo, estoy leyendo _Interpretable Machine Learning_, de Christoph Molnar, para tener una visión más completa de cómo abrir la «caja negra» de los algoritmos.
 
 Más allá de lo académico, siempre he creído en la importancia de participar activamente en la comunidad universitaria. Durante el grado tuve el honor de ser durante 1 año **vicesecretario** y durante 2 años **secretario de la Delegación de Estudiantes de Ingenierías Informática y de Telecomunicaciones** (DEIIT). En esta etapa me encargué de convocar las sesiones plenarias, redactar y publicar las actas y gestionar el censo de miembros, además de ayudar a organizar eventos en la escuela (mercadillos de BBAA, Día de la Escuela y Hackathon de desarrollo de videojuegos) o colaborar en otros (Granabot).
 :::
@@ -50,10 +50,23 @@ Más allá de lo académico, siempre he creído en la importancia de participar 
 ### ![](assets/images/logo_UGR.jpg){.icono} [Doble Grado en Ingeniería Informática y Administración y Dirección de Empresas]{.titulo} [Universidad de Granada · Curso 2019/2020 – 2025/2026 (6 años)]{.subtitulo}
 
 Nota media de 8.01 en Ingeniería Informática y 8.36 en Administración y Dirección de Empresas.
+
+Asignaturas destacadas:
+
+- **Trabajo de Fin de Grado**: 9.5/10 (más detalles abajo, en [Proyectos](#sec-proyectos)).
+- **Visión por Computador**: 8.2/10, entre los 20 mejores de 73 alumnos. Proyecto final con la calificación máxima.
+- **Aprendizaje Automático**: 7.5/8 en la parte práctica, entre los 10 mejores de 101 alumnos.
+- **Técnicas de los Sistemas Inteligentes**: 9.58/10 en la parte práctica, entre los 5 mejores de 55 alumnos.
 :::
 
-::: {.callout-note .tarjeta appearance="minimal"}
+::: {.callout-note .tarjeta collapse="true" appearance="minimal"}
 ### ![](assets/images/logo_UPV.png){.icono} [Máster en Inteligencia Artificial, Reconocimiento de Formas e Imagen Digital]{.titulo} [Universitat Politècnica de València · Curso 2026/2027 (en curso)]{.subtitulo}
+
+Durante el máster estoy reforzando los conocimientos adquiridos en el grado sobre _Machine Learning_ y **Visión por Computador**, a la vez que profundizo en:
+
+- El funcionamiento de los **mecanismos de atención** y de los **_Transformers_**.
+- El uso de **IA agéntica** en el desarrollo de proyectos.
+- **Unity** y **Realidad Aumentada (RA)**, dos campos nuevos para mí.
 :::
 
 
@@ -66,9 +79,15 @@ Nota media de 8.01 en Ingeniería Informática y 8.36 en Administración y Direc
 
 En colaboración con [Panacea Cooperative Research](https://panacea-coop.com/), dirigido por [Pablo Mesejo Santiago](https://www.ugr.es/~pmesejo/) y mentorizado por [Javier Venema Rodríguez](https://www.linkedin.com/in/javier-venema/).
 
+Calificación final de **9.5/10** (defendido el 12 de septiembre de 2025).
+
+En antropología forense, los avances en _Machine Learning_ han reducido la subjetividad de la estimación del perfil biológico, pero normalmente solo ofrecen predicciones puntuales, dejando de lado la incertidumbre, que es fundamental en la toma de decisiones forenses.
+
+- Integración de **Conformal Prediction** en la estimación del perfil biológico a partir de radiografías maxilofaciales (conjunto de datos multinacional de personas de entre 14 y 25 años), tanto en regresión (intervalos de predicción) como en clasificación (conjuntos de etiquetas).
+- Validación de las garantías de cobertura y análisis del tamaño de los intervalos y de su adaptatividad a la dificultad de cada caso.
 - Acceso y gestión de información académica (más de 100 referencias, entre libros, artículos y sitios web).
 - Análisis, síntesis y aplicación de métodos del estado del arte para problemas de estimación biológica.
-- Ecosistemas colaborativos: Overleaf, Google Workspace y Microsoft 365.
+- Proyecto que he seguido mejorando de forma independiente tras su defensa.
 
 [[]{.bi .bi-github} tfg-bioprofile-uncertainty](https://github.com/davidgondur/tfg-bioprofile-uncertainty){.btn-github}
 :::
@@ -108,10 +127,18 @@ En colaboración con [Panacea Cooperative Research](https://panacea-coop.com/), 
 
 Experiencia en proyectos académicos avanzados con herramientas como:
 
-- **OpenCV** para la manipulación avanzada de imágenes, el filtrado digital y la visión clásica.
+- **OpenCV** para la manipulación avanzada de imágenes, el filtrado digital y la visión clásica (detector de Harris, descriptores SIFT y HOG, _Bag of Visual Words_ y creación de panoramas con RANSAC y homografías).
 - **Pillow** para la gestión eficiente de formatos de imagen y el preprocesamiento de datos.
-- Uso avanzado de **PyTorch** y **TensorFlow/Keras** para la implementación de redes profundas.
+- Uso avanzado de **PyTorch**, **fastai** y **TensorFlow/Keras** para la implementación de redes profundas, tanto entrenando CNNs desde cero como mediante _transfer learning_ a partir de redes preentrenadas.
 - Familiaridad con **ONNX** para la interoperabilidad de modelos.
+:::
+
+::: {.callout-note .tarjeta collapse="true" appearance="minimal"}
+### []{.bi .bi-diagram-3 .icono} [IA simbólica]{.titulo}
+
+- **Búsqueda heurística**, implementada en **Java**.
+- **Problemas de satisfacción de restricciones** con **MiniZinc**.
+- **Planificación automática** con **PDDL**.
 :::
 
 ::: {.callout-note .tarjeta collapse="true" appearance="minimal"}
@@ -205,7 +232,9 @@ Certificación FCE de Cambridge. Número de verificación: D5753484.
 ::: {.callout-note .tarjeta collapse="true" appearance="minimal"}
 ### []{.bi .bi-person-badge .icono} [Pablo Mesejo Santiago]{.titulo} [Universidad de Granada · Panacea Cooperative Research]{.subtitulo}
 
-[Pablo Mesejo Santiago](https://www.ugr.es/~pmesejo/) es profesor asociado del Departamento de Informática e Inteligencia Artificial de la Universidad de Granada, y socio cofundador y director de Inteligencia Artificial de Panacea Cooperative Research.
+[Pablo Mesejo Santiago](https://www.ugr.es/~pmesejo/) es profesor asociado del Departamento de Informática e Inteligencia Artificial de la Universidad de Granada, y socio cofundador y director de Inteligencia Artificial de Panacea Cooperative Research. Fue mi profesor en Visión por Computador, Aprendizaje Automático y Técnicas de los Sistemas Inteligentes, y director de mi Trabajo de Fin de Grado.
+
+> _«[…] a talented, well-organized, highly motivated, and hardworking student with strong intellectual curiosity in the field of computer vision, machine learning and data science.»_
 
 [[]{.bi .bi-file-earmark-pdf} Ver carta de recomendación](assets/documents/recommendation-letter.pdf){.btn .btn-outline-primary target="_blank"}
 :::

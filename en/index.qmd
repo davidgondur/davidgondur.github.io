@@ -26,21 +26,21 @@ I'm currently looking for an internship in which to carry out my master's thesis
 ::: {.callout-note .tarjeta collapse="true" appearance="minimal"}
 ### []{.bi .bi-book .icono} [My full story]{.titulo} [Click to read it]{.subtitulo}
 
-During my university studies I discovered my passion for AI, specifically _Machine Learning_, which made it possible to build algorithms that went far beyond code and to extract complex patterns from raw data, turning them into deep knowledge. This passion led me naturally to **Data Science**. I enjoy digging into datasets to uncover hidden patterns and creating visualisations that help explain the reality behind them.
+During my degree I discovered my passion for AI, specifically _Machine Learning_: algorithms that go far beyond code and are able to extract complex patterns from raw data, turning them into knowledge. This passion led me naturally to **Data Science**. I enjoy digging into datasets to uncover hidden patterns and creating visualisations that help explain the reality behind them.
 
-My technical foundation in the data lifecycle was strengthened during my extracurricular internship at [Cívica Software](https://civica-soft.com/), where I worked for 3 months as a **Junior Data Engineer** on a project for a financial institution. There I gained essential experience in the database ecosystem, which helped me understand the data lifecycle and ETL processes.
-
-Later, thanks to one of the most demanding but rewarding courses of my degree, I developed a strong interest in **Computer Vision**. This field allowed me to explore classical image representation and filtering, hand-crafted feature extraction and, ultimately, to dive into the fascinating world of _Deep Learning_, exploring the potential of CNNs and _Transformers_ in complex tasks such as object detection and segmentation.
+That same year, thanks to one of the most demanding but rewarding courses of my degree, I developed a strong interest in **Computer Vision**. I started with classical image representation and filtering and hand-crafted feature extraction, and ended up diving into the fascinating world of _Deep Learning_, exploring the potential of CNNs and _Transformers_ in complex tasks such as object detection and segmentation.
 
 ![Simplified diagram of the adapted ResNext50 architecture for age estimation (regression) in my Bachelor's Thesis. Own work. The main goal was not to maximise the point accuracy of the predictions, but to build a reasonably lightweight model on which to quantify the uncertainty of those estimates.](../assets/images/adapted_ResNext50.png){.grande width=80%}
 
-However, I also realised that AI is not infallible: it not only makes objective mistakes, but also reproduces inaccuracies and systemic biases inherited from human-collected datasets. As a result, I have moved increasingly towards **Trustworthy AI**. I believe that for artificial intelligence to be truly useful in the real world, it must be transparent and robust.
+In July 2024 I made the leap into industry with my extracurricular internship at [Cívica Software](https://civica-soft.com/), where I worked for 3 months as a **Junior Data Engineer** on a project for a financial institution. There I gained essential experience in the database ecosystem, which helped me understand the data lifecycle and ETL processes.
 
-My most recent focus in this area is **Uncertainty Quantification**, the core of my Bachelor's Thesis: _Uncertainty quantification in the predictions of machine learning models for biological profile estimation problems_ (more details below in [Projects](#sec-projects)). This work integrates **Conformal Prediction** into biological estimation tasks, such as estimating age and sex from maxillofacial X-rays, providing prediction intervals (in regression) and label sets (in classification) with statistical guarantees, thus capturing the uncertainty in each case.
+Along the way, however, I also realised that AI is not infallible: it not only makes objective mistakes, but also reproduces inaccuracies and systemic biases inherited from human-collected datasets. As a result, I have moved increasingly towards **Trustworthy AI**. I believe that for artificial intelligence to be truly useful in the real world, it must be transparent and robust.
+
+My focus in this area is **Uncertainty Quantification**, the core of my Bachelor's Thesis: _Uncertainty quantification in the predictions of machine learning models for biological profile estimation problems_ (more details below in [Projects](#sec-projects)). This work integrates **Conformal Prediction** into biological estimation tasks, such as estimating age and sex from maxillofacial X-rays, providing prediction intervals (in regression) and label sets (in classification) with statistical guarantees, thus capturing the uncertainty in each case. I defended it in September 2025 with a grade of 9.5/10, but I haven't considered it finished: I have kept improving it on my own ever since.
 
 ![Diagram of a regression model with conformal prediction that, besides returning a point prediction with the expected value, produces a prediction interval with 95% confidence. Own work (labels in Spanish).](../assets/images/example_intervalic_estimation-es.jpg)
 
-I'm currently reading _Interpretable Machine Learning_ by Christoph Molnar, to get a fuller picture of how to open the "black box" of algorithms.
+Today I'm continuing along this path in the **Master's Degree in Artificial Intelligence, Pattern Recognition and Digital Imaging** at the Universitat Politècnica de València, where I'm strengthening my knowledge and going deeper into how **attention mechanisms** and **_Transformers_** work, as well as using **agentic AI** in projects. I'm also taking my first steps with **Unity** and **Augmented Reality**. Meanwhile, I'm reading _Interpretable Machine Learning_ by Christoph Molnar, to get a fuller picture of how to open the "black box" of algorithms.
 
 Beyond academics, I have always believed in taking an active part in the university community. During my degree I had the honour of serving for 1 year as **vice-secretary** and for 2 years as **secretary of the Student Delegation of Computer and Telecommunication Engineering** (DEIIT). In this role I was responsible for calling plenary sessions, drafting and publishing the minutes and managing the member register, as well as helping to organise school events (Fine Arts markets, School Day and a video game development Hackathon) or collaborating in others (Granabot).
 :::
@@ -51,10 +51,23 @@ Beyond academics, I have always believed in taking an active part in the univers
 ### ![](../assets/images/logo_UGR.jpg){.icono} [Double Degree in Computer Engineering and Business Administration]{.titulo} [University of Granada · 2019/2020 – 2025/2026 (6 years)]{.subtitulo}
 
 Average grade of 8.01/10 in Computer Engineering and 8.36/10 in Business Administration.
+
+Highlighted courses:
+
+- **Bachelor's Thesis**: 9.5/10 (more details below in [Projects](#sec-projects)).
+- **Computer Vision**: 8.2/10, in the top 20 out of 73 students. Final project awarded the highest grade.
+- **Machine Learning**: 7.5/8 in the practical component, in the top 10 out of 101 students.
+- **Intelligent Systems Techniques**: 9.58/10 in the practical component, in the top 5 out of 55 students.
 :::
 
-::: {.callout-note .tarjeta appearance="minimal"}
+::: {.callout-note .tarjeta collapse="true" appearance="minimal"}
 ### ![](../assets/images/logo_UPV.png){.icono} [Master's Degree in Artificial Intelligence, Pattern Recognition and Digital Imaging]{.titulo} [Universitat Politècnica de València · 2026/2027 (in progress)]{.subtitulo}
+
+During the master's I'm strengthening the knowledge of _Machine Learning_ and **Computer Vision** I gained during my degree, while going deeper into:
+
+- How **attention mechanisms** and **_Transformers_** work.
+- Using **agentic AI** in project development.
+- **Unity** and **Augmented Reality (AR)**, two fields that are new to me.
 :::
 
 ## []{.bi .bi-briefcase} Work experience
@@ -79,9 +92,15 @@ Average grade of 8.01/10 in Computer Engineering and 8.36/10 in Business Adminis
 
 In collaboration with [Panacea Cooperative Research](https://panacea-coop.com/), supervised by [Pablo Mesejo Santiago](https://www.ugr.es/~pmesejo/) and mentored by [Javier Venema Rodríguez](https://www.linkedin.com/in/javier-venema/).
 
+Final grade of **9.5/10** (defended on 12 September 2025).
+
+In forensic anthropology, advances in _Machine Learning_ have reduced the subjectivity of biological profile estimation, but they usually provide only point predictions, overlooking the uncertainty that is essential in forensic decision-making.
+
+- Integration of **Conformal Prediction** into biological profile estimation from maxillofacial X-rays (multinational dataset of individuals aged 14 to 25), in both regression (prediction intervals) and classification (label sets).
+- Validation of the coverage guarantees and analysis of interval size and its adaptivity to the difficulty of each case.
 - Finding and managing academic literature (over 100 references, including books, papers and websites).
 - Analysis, synthesis and application of state-of-the-art methods for biological estimation problems.
-- Collaborative tools: Overleaf, Google Workspace and Microsoft 365.
+- A project I have kept improving independently since defending it.
 
 [[]{.bi .bi-github} tfg-bioprofile-uncertainty](https://github.com/davidgondur/tfg-bioprofile-uncertainty){.btn-github}
 :::
@@ -102,10 +121,18 @@ In collaboration with [Panacea Cooperative Research](https://panacea-coop.com/),
 
 Experience in advanced academic projects with tools such as:
 
-- **OpenCV** for advanced image manipulation, digital filtering and classical vision.
+- **OpenCV** for advanced image manipulation, digital filtering and classical vision (Harris corner detector, SIFT and HOG descriptors, _Bag of Visual Words_ and panorama stitching with RANSAC and homographies).
 - **Pillow** for efficient image format handling and data preprocessing.
-- Advanced use of **PyTorch** and **TensorFlow/Keras** to implement deep networks.
+- Advanced use of **PyTorch**, **fastai** and **TensorFlow/Keras** to implement deep networks, both training CNNs from scratch and through _transfer learning_ from pretrained networks.
 - Familiarity with **ONNX** for model interoperability.
+:::
+
+::: {.callout-note .tarjeta collapse="true" appearance="minimal"}
+### []{.bi .bi-diagram-3 .icono} [Symbolic AI]{.titulo}
+
+- **Heuristic search**, implemented in **Java**.
+- **Constraint satisfaction problems** with **MiniZinc**.
+- **Automated planning** with **PDDL**.
 :::
 
 ::: {.callout-note .tarjeta collapse="true" appearance="minimal"}
@@ -197,7 +224,9 @@ Cambridge FCE certificate. Verification number: D5753484.
 ::: {.callout-note .tarjeta collapse="true" appearance="minimal"}
 ### []{.bi .bi-person-badge .icono} [Pablo Mesejo Santiago]{.titulo} [University of Granada · Panacea Cooperative Research]{.subtitulo}
 
-[Pablo Mesejo Santiago](https://www.ugr.es/~pmesejo/) is an Associate Professor in the Department of Computer Science and Artificial Intelligence at the University of Granada, and co-founder and Director of Artificial Intelligence at Panacea Cooperative Research.
+[Pablo Mesejo Santiago](https://www.ugr.es/~pmesejo/) is an Associate Professor in the Department of Computer Science and Artificial Intelligence at the University of Granada, and co-founder and Director of Artificial Intelligence at Panacea Cooperative Research. He taught me Computer Vision, Machine Learning and Intelligent Systems Techniques, and supervised my Bachelor's Thesis.
+
+> _"[…] a talented, well-organized, highly motivated, and hardworking student with strong intellectual curiosity in the field of computer vision, machine learning and data science."_
 
 [[]{.bi .bi-file-earmark-pdf} Download recommendation letter](../assets/documents/recommendation-letter.pdf){.btn .btn-outline-primary target="_blank"}
 :::
