@@ -128,11 +128,11 @@ Experience in advanced academic projects with tools such as:
 :::
 
 ::: {.callout-note .tarjeta collapse="true" appearance="minimal"}
-### []{.bi .bi-diagram-3 .icono} [Symbolic AI]{.titulo}
+### []{.bi .bi-git .icono} [Software development and agentic integration]{.titulo} [Overall level: basic]{.subtitulo}
 
-- **Heuristic search**, implemented in **Java**.
-- **Constraint satisfaction problems** with **MiniZinc**.
-- **Automated planning** with **PDDL**.
+- **Version control**: regular use of **Git** and **GitHub** for collaborative development and code versioning.
+- **Containers**: basic experience with **Docker** to isolate personal environments.
+- **Agentic development**: using **Claude Code** and **Codex** as coding agents in my projects.
 :::
 
 ::: {.callout-note .tarjeta collapse="true" appearance="minimal"}
@@ -156,10 +156,11 @@ Clarity, structure and reproducibility in documents are cornerstones of communic
 :::
 
 ::: {.callout-note .tarjeta collapse="true" appearance="minimal"}
-### []{.bi .bi-git .icono} [Software Engineering]{.titulo} [Overall level: basic]{.subtitulo}
+### []{.bi .bi-diagram-3 .icono} [Symbolic AI]{.titulo}
 
-- **Version control**: regular use of **Git** and **GitHub** for collaborative development and code versioning.
-- **Containers**: basic experience with **Docker** to isolate personal environments.
+- **Heuristic search**, implemented in **Java**.
+- **Constraint satisfaction problems** with **MiniZinc**.
+- **Automated planning** with **PDDL**.
 :::
 
 ::: {.callout-note .tarjeta collapse="true" appearance="minimal"}

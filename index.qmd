@@ -134,11 +134,11 @@ Experiencia en proyectos académicos avanzados con herramientas como:
 :::
 
 ::: {.callout-note .tarjeta collapse="true" appearance="minimal"}
-### []{.bi .bi-diagram-3 .icono} [IA simbólica]{.titulo}
+### []{.bi .bi-git .icono} [Desarrollo software e integración agéntica]{.titulo} [Nivel general básico]{.subtitulo}
 
-- **Búsqueda heurística**, implementada en **Java**.
-- **Problemas de satisfacción de restricciones** con **MiniZinc**.
-- **Planificación automática** con **PDDL**.
+- **Control de versiones**: uso frecuente de **Git** y **GitHub** para el desarrollo colaborativo y el control de versiones del código.
+- **Contenedores**: experiencia básica con **Docker** para aislar entornos de uso personal.
+- **Desarrollo agéntico**: uso de **Claude Code** y **Codex** como agentes de programación en mis proyectos.
 :::
 
 ::: {.callout-note .tarjeta collapse="true" appearance="minimal"}
@@ -162,10 +162,11 @@ La claridad, el orden y la reproducibilidad de los documentos son pilares fundam
 :::
 
 ::: {.callout-note .tarjeta collapse="true" appearance="minimal"}
-### []{.bi .bi-git .icono} [Ingeniería del software]{.titulo} [Nivel general básico]{.subtitulo}
+### []{.bi .bi-diagram-3 .icono} [IA simbólica]{.titulo}
 
-- **Control de versiones**: uso frecuente de **Git** y **GitHub** para el desarrollo colaborativo y el control de versiones del código.
-- **Contenedores**: experiencia básica con **Docker** para aislar entornos de uso personal.
+- **Búsqueda heurística**, implementada en **Java**.
+- **Problemas de satisfacción de restricciones** con **MiniZinc**.
+- **Planificación automática** con **PDDL**.
 :::
 
 ::: {.callout-note .tarjeta collapse="true" appearance="minimal"}
